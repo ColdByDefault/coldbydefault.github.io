@@ -35,7 +35,7 @@ portfolio/
 ├── src/                  # Source code
 │   ├── components/       # React components
 │   ├── styles/           # Stylesheets
-│   ├── App.jsx           # Main app component
+│   ├── App.jsx           # Main app components
 │   ├── index.css         # Global stylesheet for the app
 │   ├── main.jsx          # Entry point of the app
 ├── .gitignore            # Git ignore file
