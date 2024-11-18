@@ -1,9 +1,12 @@
 /* Landing Page => Page Under Structure */
 .landing-container {
   text-align: center;
-  max-width: 600px;
+  width: 100%;
   padding: 20px;
   padding-top: 80px;
+  background: linear-gradient(45deg, rgb(15, 15, 165), rgb(31, 30, 30));
+  color: whitesmoke;
+  margin-bottom: 30rem;
 }
 
 .landing-container h1 {
@@ -20,29 +23,29 @@
   animation: fadeIn 3s ease forwards;
 }
 
-.dots {
+.landing-container .dots {
   display: flex;
   justify-content: center;
   gap: 5px;
 }
 
-.dot {
+.landing-container .dot {
   width: 15px;
   height: 15px;
-  background-color: #fff;
+  background-color: #f0740e;
   border-radius: 50%;
   animation: bounce 1s infinite;
 }
 
-.dot:nth-child(2) {
+.landing-container .dot:nth-child(2) {
   animation-delay: 0.2s;
 }
 
-.dot:nth-child(3) {
+.landing-container .dot:nth-child(3) {
   animation-delay: 0.4s;
 }
 
-.social-icons {
+.landing-container .social-icons {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -51,23 +54,27 @@
   animation: fadeIn 4s ease forwards;
 }
 
-.social-icons a {
+.landing-container .social-icons a {
   color: #129e05;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
   margin-top: 1rem;
   transition: transform 0.3s ease;
 }
 
-.social-icons a:hover {
+.landing-container .social-icons a:hover {
   transform: scale(1.2);
 }
 
-.landing-container h4{
+.landing-container .landing-container h4{
   margin-top: 40px;
   color: #201f38;
 }
-.flexy{
+
+.landing-container span{
+  color: #f0740e;
+}
+.landing-container .flexy{
   display: flex;
   align-items: center;
 }

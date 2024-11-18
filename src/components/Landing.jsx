@@ -16,12 +16,12 @@ function Landing(){
                         <div className="dot"></div>
                     </div>
 
-                    <div className="social-icons flexy">
+                    <div className="social-icons flexy mb-5">
                         <h3 style={{ paddingTop: '1rem' }}>Visit my</h3>
                         <a href="https://linktr.ee/ColdByDefault" target="_blank" rel="noopener noreferrer">Link.tree</a>
                     </div>
                     <div>
-                        <h4 className="text-4xl font-bold text-blue-400">ColdByDefault</h4>
+                        <h4 className="text-4xl font-bold">Cold<span>By</span>Default</h4>
                     </div>
                 </div>
             </div>
