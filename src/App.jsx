@@ -1,6 +1,9 @@
 // Copyright © 2024 ColdByDefault. All rights reserved.
 // Unauthorized copying or use is prohibited.
 
+
+// Everything you know; is a lie.
+
 import React from 'react';
 import Landing from './components/Landing';
 import Contact from './components/Contact';
