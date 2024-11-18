@@ -1,35 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(0deg, #020202, #02094d);
-  overflow: hidden;
-  color: #fff;
-}
-
-.container {
+/* Landing Page => Page Under Structure */
+.landing-container {
   text-align: center;
   max-width: 600px;
   padding: 20px;
   padding-top: 80px;
 }
 
-h1 {
+.landing-container h1 {
   font-size: 3rem;
   margin-bottom: 10px;
   letter-spacing: 2px;
   animation: fadeIn 2s ease forwards;
 }
 
-p {
+.landing-container p {
   font-size: 1.2rem;
   margin-bottom: 20px;
   opacity: 0;
@@ -79,7 +63,7 @@ p {
   transform: scale(1.2);
 }
 
-h4{
+.landing-container h4{
   margin-top: 40px;
   color: #201f38;
 }

@@ -19,7 +19,7 @@ This React app is designed to be a simple, clean, and modern landing page for my
 ## 🚀 Technologies Used
 
 - **React + Vite**: For building the UI components.
-- **CSS**: For styling and animations.
+- **CSS + Tailwind**: For styling and animations.
 - **GitHub Pages**: For deployment and hosting.
 - **Squarespace DNS**: For custom domain management.
 
@@ -28,17 +28,25 @@ This React app is designed to be a simple, clean, and modern landing page for my
 ## 📂 Project Structure
 ```bash
 portfolio/
-├── public/
+├── public/               # Static files
 │   ├── myicon.png        # Custom favicon
 │   ├── robots.txt        # Robots configuration
 │   ├── CNAME             # Domain configuration
-├── src/
-│   ├── App.js            # Main app component
-│   ├── App.css           # Stylesheet for the app
-│   ├── index.js          # Entry point of the app
-│   └── ...               # Other files
+├── src/                  # Source code
+│   ├── components/       # React components
+│   ├── styles/           # Stylesheets
+│   ├── App.jsx           # Main app component
+│   ├── index.css         # Global stylesheet for the app
+│   ├── main.jsx          # Entry point of the app
+├── .gitignore            # Git ignore file
+├── COPYRIGHT             # Copyright notice for the project
 ├── package.json          # Project metadata and dependencies
-└── README.md             # Project README file
+├── package-lock.json     # Locked versions of dependencies
+├── postcss.config.js     # PostCSS configuration for Tailwind
+├── README.md             # Project README file
+├── tailwind.config.js    # Tailwind CSS configuration
+└── vite.config.js        # Vite configuration file
+
 ```
 
 ---
