@@ -1,23 +1,23 @@
 import React from "react";
-/* Join the stack array with commas */
-function PortfolioItem({ title, imgUrl, stack, link }) {
-    return (
-        <>
-            <div>
-                <img
-                    src={imgUrl}
-                    alt=""
-                    className="w-full h-36 md:h-48 object-cover cursor-pointer"
-                />
-                <div className="w-full p-4">
-                    <h3>{title}</h3>
-                    <p>
-                        {stack.join(', ')} 
-                    </p>
-                </div>
-            </div>
-        </>
-    );
+
+function PortfolioItem({ imgUrl, title, stack, link }) {
+  return (
+    <div className="rounded-lg overflow-hidden shadow-lg">
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <img 
+          src={imgUrl} 
+          alt={title} 
+          className="w-full h-48 object-cover rounded-lg border
+           border-gray-200 hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+      <div className="p-4">
+        <h3 className="text-lg font-semibold">{title}</h3>
+        <p className="text-sm text-gray-300">{stack.join(', ')}</p>
+      </div>
+    </div>
+  );
 }
 
 export default PortfolioItem;
+

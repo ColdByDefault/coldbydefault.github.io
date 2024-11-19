@@ -5,11 +5,15 @@ import React from "react";
 function Intro(){
     return (
     <>
-        <div className="flex items-center justify-center
-        flex-col text-center pt-20 pb-6"> 
-            <h1 className="text-4xl md:text-7xl mb-1 md:mb-3
-            font-bold">Yazan Abo-Ayash</h1>
-            <p className="text-base md:text-xl mb-3 font-medium">Software Developer</p>
+        <div className="flex items-center justify-evenly
+        flex-col text-center pt-20 pb-6 bg-black text-white"> 
+            <div className="flex items-center">
+                <h1 className="text-2xl md:text-6xl mb-1 md:mb-3
+                font-bold pr-12">Yazan<br />Abo-Ayash
+                </h1>
+                <img src="/src/assets/me3.jpg" alt="" className="w-[300px] h-[300px] rounded-full object-cover" />
+            </div>
+            <p className="text-base md:text-xl mb-3 font-medium mt-5">Full-Stack Developer</p>
             <p className="text-sm max-w-xl mb-6 font-bold"> 
             Hi, I am currently learning to become a software developer, focusing on Python and Machine Learning, 
             with a passion for building and exploring new technologies. 

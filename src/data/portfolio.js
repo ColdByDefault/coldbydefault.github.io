@@ -1,22 +1,22 @@
 export default [
     {
         title: 'Portfolio',
-        imgUrl: '',
+        imgUrl: 'src/assets/portfolioLogo.png',
         stack: ['React', 'Tailwind', 'Vite'],
         link: '',
 
     },
     {
         title: 'BeRich',
-        imgUrl: '',
+        imgUrl: 'src/assets/BeRich.png',
         stack: ['Python', 'Flask', 'Jinja2'],
         link: '',
 
     },
     {
-        title: 'Project-3',
-        imgUrl: '',
-        stack: ['?', '?', '?'],
+        title: 'Ella |under active development|',
+        imgUrl: 'src/assets/ella.png',
+        stack: ['Python', 'PyTorch', 'DL'],
         link: '',
 
     },

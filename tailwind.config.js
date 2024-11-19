@@ -8,7 +8,7 @@ export default {
         inter: ['inter','serif'],
       },
       colors: {
-        'main-Blue': '#010a2e',
+        'main-Blue': '#000',
         'main-Orange' : '#f96d00',
         'main-Cyne' : '#00bbf0',
         'light-Cyne' : '#00bbf0',
