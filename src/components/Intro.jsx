@@ -1,11 +1,24 @@
 import React from "react";
-
-
+import Timeline from "./Timeline";
 
 function Intro(){
+    const skillsList = [
+        "React",
+        "JavaScript",
+        "Python",
+        "Tailwind CSS",
+        "Flask",
+        "Machine Learning",
+        "Deep Learning",
+        "Git",
+        "HTML",
+        "CSS",
+        "Vite",
+        "Next.js",
+      ];
     return (
     <>
-        <div className="flex items-center justify-evenly h-screen
+        <div className="flex items-center justify-evenly min-h-screen
         flex-col text-center pt-20 pb-6 bg-black text-white"> 
             <div className="flex items-center">
                 <h1 className="text-2xl md:text-6xl mb-1 md:mb-3
@@ -24,6 +37,27 @@ function Intro(){
             rel="noreferrer noopener">GitHub
             </a>.
             </p>
+             {/* Skills Section */}
+            <div className="flex items-center gap-28 bg-gray-900 text-white p-6 rounded-lg shadow-lg mt-12">
+                <div>
+                    <h2 className="text-2xl font-bold mb-4 text-main-Cyne">Skills</h2>
+                    <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4">
+                    {skillsList.map((skill, index) => (
+                        <li
+                        key={index}
+                        className="bg-gray-800 p-3 rounded-md text-center shadow-sm hover:bg-main-Cyne hover:text-black transition duration-300"
+                        >
+                        {skill}
+                        </li>
+                    ))}
+                    </ul>
+                </div>
+                <div>
+                    {/* Time line */}
+                    <Timeline />
+                </div>
+            </div>
+            
         </div>
     </>
     )

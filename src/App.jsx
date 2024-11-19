@@ -9,9 +9,10 @@ import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 
+
+
 function App() {
   const [activeSection, setActiveSection] = useState('Home');
-
   return (
     <div>
       <Navbar setActiveSection={setActiveSection} />
