@@ -9,6 +9,7 @@ export default {
       },
       colors: {
         'main-Blue': '#000',
+        'dark-blue': '#021b2771', 
         'main-Orange' : '#f96d00',
         'main-Cyne' : '#00bbf0',
         'light-Cyne' : '#00bbf0',
