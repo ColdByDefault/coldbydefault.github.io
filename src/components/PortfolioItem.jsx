@@ -8,7 +8,7 @@ function PortfolioItem({ imgUrl, title, stack, link }) {
           src={imgUrl} 
           alt={title} 
           className="w-full h-48 object-cover rounded-lg border
-           border-gray-200 hover:scale-105 transition-transform duration-300"
+           border-gray-200 hover:scale-95 transition-transform duration-300"
         />
       </a>
       <div className="p-4">

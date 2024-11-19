@@ -5,7 +5,7 @@ import React from "react";
 function Intro(){
     return (
     <>
-        <div className="flex items-center justify-evenly
+        <div className="flex items-center justify-evenly h-screen
         flex-col text-center pt-20 pb-6 bg-black text-white"> 
             <div className="flex items-center">
                 <h1 className="text-2xl md:text-6xl mb-1 md:mb-3

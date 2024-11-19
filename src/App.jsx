@@ -4,25 +4,24 @@
 
 // Everything you know; is a lie.
 
-import React from 'react';
-import Landing from './components/Landing';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 
-
-
-
 function App() {
+  const [activeSection, setActiveSection] = useState('Home');
+
   return (
     <div>
-      <Navbar />
-
-      <Intro />
-      <Portfolio />
+      <Navbar setActiveSection={setActiveSection} />
+      {activeSection === 'Home' && <Intro />}
+      {activeSection === 'Projects' && <Portfolio />}
+      {activeSection === 'Links' && <div>Links Section Coming Soon...</div>}
+      {activeSection === 'Contact' && <div>Contact Section Coming Soon...</div>}
     </div>
-    
   );
 }
 
-export default App
+export default App;
+
