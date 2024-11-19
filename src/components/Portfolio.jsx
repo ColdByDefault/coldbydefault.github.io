@@ -6,7 +6,7 @@ function Portfolio(){
     return (
     <>
         <div className="flex flex-col md:flex-row items-center h-screen
-        justify-center bg-black text-white">
+        justify-center text-white">
             <div className="grid grid-cols-1 md:grid-cols-2 
             lg:grid-cols-3 gap-4 mt-5">
                 {portfolio.map(project => (

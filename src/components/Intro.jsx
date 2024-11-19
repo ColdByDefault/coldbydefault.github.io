@@ -19,12 +19,12 @@ function Intro(){
     return (
     <>
         <div className="flex items-center justify-evenly min-h-screen
-        flex-col text-center pt-20 pb-6 bg-black text-white"> 
+        flex-col text-center pt-20 pb-6 text-white"> 
             <div className="flex items-center">
                 <h1 className="text-2xl md:text-6xl mb-1 md:mb-3
                 font-bold pr-12">Yazan<br />Abo-Ayash
                 </h1>
-                <img src="/assets/me3.jpg" alt="" className="w-[300px] h-[300px] rounded-full object-cover" />
+                <img src="/assets/me5.jpg" alt="" className="w-[300px] h-[300px] rounded-full object-cover" />
             </div>
             <p className="text-base md:text-xl mb-3 font-medium mt-5">Full-Stack Developer</p>
             <p className="text-sm max-w-xl mb-6 font-bold"> 

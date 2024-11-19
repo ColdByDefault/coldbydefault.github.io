@@ -13,7 +13,10 @@ export default {
         'main-Cyne' : '#00bbf0',
         'light-Cyne' : '#00bbf0',
         'shadow-Cyne' : '#00bcf06c',
-      }
+      },
+      scrollBehavior: {
+        smooth: 'smooth',
+      },
     },
   },
   plugins: [],
