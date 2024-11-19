@@ -13,8 +13,8 @@ function Navbar({ setActiveSection }) {
         sm:justify-center sm:flex-nowrap 
         w-full text-sm py-3 font-inter">
         <nav className="
-        max-w-[85%] w-full px-4 sm:flex sm:items-center sm:justify-evenly 
-        bg-dark-blue rounded-lg p-2">
+        w-full sm:max-w-[85%] px-4 sm:flex sm:items-center sm:justify-evenly 
+        bg-dark-blue rounded-lg p-2 mx-auto">
           <div className="flex items-center justify-between">
             <a className="flex-none text-xl font-semibold focus:outline-none 
             text-white focus:opacity-80" href="#" aria-label="Brand">
