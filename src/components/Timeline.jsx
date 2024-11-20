@@ -9,10 +9,14 @@ function Timeline() {
     },
     {
       date: "2021",
+      title: "Started Learning Front-End Programming",
+      description: "Deploying my first Website ever.",
+    },
+    {
+      date: "2022",
       title: "Started Learning Programming",
       description: "Dived into Python and built my first simple applications.",
     },
-
     {
       date: "2023",
       title: "Started Academic Journey as a Software Developer",
@@ -28,16 +32,16 @@ function Timeline() {
 
   return (
     <div id="timeline" className="relative flex flex-col items-center justify-center">
-      <h2 className="text-3xl font-bold mb-6 text-main-Cyne">My Journey</h2>
-      <div className="border-l-2 border-gray-200 dark:border-gray-700 relative">
+      <div className="border-r-2 border-gray-200 dark:border-gray-700 relative"> 
         {events.map((event, index) => (
-          <div key={index} className="mb-10 ml-4">
-            <div className="absolute w-3 h-3 bg-main-Cyne rounded-full -left-1.5 border border-gray-200 dark:border-gray-700"></div>
-            <div className="flex flex-col gap-2">
-              <time className="text-gray-500 dark:text-gray-400 text-sm">
+          <div key={index} className="mb-10 mr-12">
+            <div className="absolute w-3 h-3 bg-main-Cyne rounded-full 
+            -right-1.5 border border-gray-200 dark:border-gray-700"></div> 
+            <div className="flex flex-col gap-2 text-right">
+              <time className="text-light-Cyne dark:text-stone-100 text-sm">
                 {event.date}
               </time>
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-stone-50 dark:text-white">
                 {event.title}
               </h3>
               <p className="text-gray-700 dark:text-gray-300 text-sm">

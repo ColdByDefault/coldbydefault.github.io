@@ -11,7 +11,7 @@ function Navbar({ setActiveSection }) {
     <>
       <header className="relative flex flex-wrap 
         sm:justify-center sm:flex-nowrap 
-        w-full text-sm py-3 font-inter">
+        w-full text-sm py-3 font-inter"><span className='text-red-600'>Under Structure</span>
         <nav className="w-full sm:max-w-[85%] px-4 sm:flex 
         sm:items-center sm:justify-evenly 
         bg-dark-blue rounded-lg p-2 mx-auto">
