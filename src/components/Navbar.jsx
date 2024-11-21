@@ -69,20 +69,20 @@ function Navbar({ setActiveSection }) {
             isMenuOpen ? 'block' : 'hidden'
             } sm:block transition-all duration-300`}>
               <div className="flex flex-col items-center justify-center gap-8 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-                <button
-                className="font-medium text-main-Cyne focus:outline-none flex items-center gap-2">
+                <button className="font-medium text-main-Cyne focus:outline-none flex items-center gap-2"
+                onClick={() => setActiveSection('Home')}>
                 <FontAwesomeIcon icon={faHouse} />
                 <span className="sm:hidden">Home</span>
                 </button>
-                <button
-                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
-                focus:text-gray-400 flex items-center gap-2">
+                <button className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
+                focus:text-gray-400 flex items-center gap-2"
+                onClick={() => setActiveSection('Projects')}>
                 <FontAwesomeIcon icon={faFlask} />
                 <span className="sm:hidden">Lab</span>
                 </button>
-                <button
-                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
-                focus:text-gray-400 flex items-center gap-2">
+                <button className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
+                focus:text-gray-400 flex items-center gap-2"
+                onClick={() => setActiveSection('Contact')}>
                 <FontAwesomeIcon icon={faEnvelope} />
                 <span className="sm:hidden">Contact</span>
                 </button>
