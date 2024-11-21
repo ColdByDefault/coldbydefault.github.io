@@ -97,7 +97,9 @@ function Navbar({ setActiveSection }) {
                 target='_blank'
                 className="font-medium text-gray-600 hover:text-green-600 focus:outline-none 
                 focus:text-gray-400 flex items-center gap-2">
-                  <span>Link</span><FontAwesomeIcon icon={faTree} />
+                  <span className="hidden sm:inline">Link</span>
+                  <FontAwesomeIcon icon={faTree} />
+                  <span className="sm:hidden">Link</span>
                 </a>
               </div>
             </div>
