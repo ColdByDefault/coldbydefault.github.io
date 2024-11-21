@@ -10,6 +10,7 @@ import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import GradientBackground from "./components/GradientBackground";
 import Footer from './components/Footer';
+import Impressum from "./components/Impressum";
 
 function App() {
   const [activeSection, setActiveSection] = useState('Home');
@@ -26,6 +27,7 @@ function App() {
         {activeSection === 'Projects' && <Portfolio />}
         {activeSection === 'Links' && <div>Links Section Coming Soon...</div>}
         {activeSection === 'Contact' && <div>Contact Section Coming Soon...</div>}
+        {activeSection === 'Impressum' && <Impressum />}
         {/* Footer */}
         <Footer />
       </div>

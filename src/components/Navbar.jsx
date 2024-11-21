@@ -94,6 +94,11 @@ function Navbar({ setActiveSection }) {
                 hover:text-gray-400 focus:outline-none focus:text-gray-400">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
+                <button
+                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+                onClick={() => setActiveSection('Impressum')}>
+                Impressum
+                </button>
               </div>
             </div>
         </nav>
