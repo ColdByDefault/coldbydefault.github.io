@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import { faFlask, faEnvelope, faHouse, faTree } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar({ setActiveSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,15 +14,15 @@ function Navbar({ setActiveSection }) {
     <>
       <header className="relative flex flex-wrap 
         sm:justify-center sm:flex-nowrap 
-        w-full text-sm py-3 font-inter">{/* <span className='text-red-600'>Under Structure</span> */}
+        w-full text-sm py-3 font-inter">
         <nav className="w-full sm:max-w-[85%] px-4 sm:flex 
         sm:items-center sm:justify-evenly 
         bg-dark-blue rounded-lg p-2 mx-auto">
           <div className="flex items-center justify-between">
-            <a className="flex-none text-xl font-semibold focus:outline-none 
-            text-white focus:opacity-80" href="#" aria-label="Brand">
+            <div className="flex-none text-xl font-semibold focus:outline-none cursor-default
+            text-white focus:opacity-80">
               Cold<span className="text-main-Cyne">By</span>Default
-            </a>
+            </div>
             <div className="sm:hidden">
                 <button type="button" onClick={handleMenuToggle}
                 className="relative size-7 flex justify-center items-center 
@@ -68,31 +68,36 @@ function Navbar({ setActiveSection }) {
             className={`${
             isMenuOpen ? 'block' : 'hidden'
             } sm:block transition-all duration-300`}>
-              <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+              <div className="flex flex-col items-center justify-center gap-8 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
                 <button
-                className="font-medium text-main-Cyne focus:outline-none"
-                onClick={() => setActiveSection('Home')}>
-                Home
+                className="font-medium text-main-Cyne focus:outline-none flex items-center gap-2">
+                <FontAwesomeIcon icon={faHouse} />
+                <span className="sm:hidden">Home</span>
                 </button>
                 <button
-                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-                onClick={() => setActiveSection('Projects')}>
-                Lab
+                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
+                focus:text-gray-400 flex items-center gap-2">
+                <FontAwesomeIcon icon={faFlask} />
+                <span className="sm:hidden">Lab</span>
                 </button>
-                {/* <button
-                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-                onClick={() => setActiveSection('Links')}>
-                Links
-                </button> */}
                 <button
-                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
-                onClick={() => setActiveSection('Contact')}>
-                Contact
+                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
+                focus:text-gray-400 flex items-center gap-2">
+                <FontAwesomeIcon icon={faEnvelope} />
+                <span className="sm:hidden">Contact</span>
                 </button>
-                <a href="https://github.com/ColdByDefault" target='_blank'
-                className="font-medium text-gray-600 
-                hover:text-gray-400 focus:outline-none focus:text-gray-400">
+                <a href="https://github.com/ColdByDefault" rel="noopener noreferrer"
+                target='_blank'
+                className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none 
+                focus:text-gray-400 flex items-center gap-2">
                   <FontAwesomeIcon icon={faGithub} />
+                  <span className="sm:hidden">GitHub</span>
+                </a>
+                <a href="https://linktr.ee/ColdByDefault" rel="noopener noreferrer"
+                target='_blank'
+                className="font-medium text-gray-600 hover:text-green-600 focus:outline-none 
+                focus:text-gray-400 flex items-center gap-2">
+                  <span>Link</span><FontAwesomeIcon icon={faTree} />
                 </a>
               </div>
             </div>
