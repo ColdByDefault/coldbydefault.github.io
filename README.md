@@ -29,12 +29,14 @@ This React app is designed to be a simple, clean, and modern landing page for my
 ```bash
 portfolio/
 ├── public/               # Static files
+│   ├── assets/           # pngs & svgs
 │   ├── myicon.png        # Custom favicon
 │   ├── robots.txt        # Robots configuration
 │   ├── CNAME             # Domain configuration
 ├── src/                  # Source code
 │   ├── components/       # React components
 │   ├── styles/           # Stylesheets
+│   ├── data/             # JS Objects
 │   ├── App.jsx           # Main app components
 │   ├── index.css         # Global stylesheet for the app
 │   ├── main.jsx          # Entry point of the app

@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 
 function Navbar({ setActiveSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +14,7 @@ function Navbar({ setActiveSection }) {
     <>
       <header className="relative flex flex-wrap 
         sm:justify-center sm:flex-nowrap 
-        w-full text-sm py-3 font-inter"><span className='text-red-600'>Under Structure</span>
+        w-full text-sm py-3 font-inter">{/* <span className='text-red-600'>Under Structure</span> */}
         <nav className="w-full sm:max-w-[85%] px-4 sm:flex 
         sm:items-center sm:justify-evenly 
         bg-dark-blue rounded-lg p-2 mx-auto">
@@ -21,9 +24,7 @@ function Navbar({ setActiveSection }) {
               Cold<span className="text-main-Cyne">By</span>Default
             </a>
             <div className="sm:hidden">
-                <button
-                type="button"
-                onClick={handleMenuToggle}
+                <button type="button" onClick={handleMenuToggle}
                 className="relative size-7 flex justify-center items-center 
                 gap-x-2 rounded-lg text-light-Cyne focus:outline-none 
                 disabled:opacity-50 disabled:pointer-events-none"
@@ -76,18 +77,23 @@ function Navbar({ setActiveSection }) {
                 <button
                 className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
                 onClick={() => setActiveSection('Projects')}>
-                Projects
+                Lab
                 </button>
-                <button
+                {/* <button
                 className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
                 onClick={() => setActiveSection('Links')}>
                 Links
-                </button>
+                </button> */}
                 <button
                 className="font-medium text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400"
                 onClick={() => setActiveSection('Contact')}>
                 Contact
                 </button>
+                <a href="https://github.com/ColdByDefault" target='_blank'
+                className="font-medium text-gray-600 
+                hover:text-gray-400 focus:outline-none focus:text-gray-400">
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
               </div>
             </div>
         </nav>

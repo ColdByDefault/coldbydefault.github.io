@@ -5,9 +5,14 @@ function GradientBackground() {
     const handleMouseMove = (e) => {
       const gradient = document.getElementById("gradient-bg");
       const { clientX, clientY } = e;
-      gradient.style.background = `radial-gradient(circle 2000px at 
-      ${clientX}px ${clientY}px, #000203, #021b27, #032535)`;
-    };
+      gradient.style.background = `radial-gradient(circle 1800px at 
+        ${clientX}px ${clientY}px, 
+        #020915 10%, 
+        #031424 40%, 
+        #021b27 60%, 
+        #022430 80%, 
+        #032535 100%)`;
+    };    
 
     window.addEventListener("mousemove", handleMouseMove);
 
@@ -17,12 +22,7 @@ function GradientBackground() {
   return (
     <div
       id="gradient-bg"
-      className="absolute inset-0 -z-10"
-      style={{
-        background: "radial-gradient(circle at center, #000203, #021b27, #032535)",
-        transition: "background 0.1s ease",
-      }}
-    ></div>
+      className="absolute inset-0 -z-10"></div>
   );
 }
 
