@@ -1,16 +1,16 @@
 import React from "react";
-import portfolio from "../data/portfolio";
-import PortfolioItem from "./PortfolioItem";
+import labItems from "../data/labItems"; /*labItems ../data/labItems */
+import LabItems from "./LabItems"; /*LabItems ./LabItems */
 
-function Portfolio(){
+function Lab(){ /* Lab */
     return (
     <>
         <div className="flex flex-col md:flex-row items-center h-screen
         justify-center text-white">
             <div className="grid grid-cols-1 md:grid-cols-2 
             lg:grid-cols-3 gap-4 mt-5">
-                {portfolio.map(project => (
-                    <PortfolioItem 
+                {labItems.map(project => ( 
+                    <LabItems 
                         imgUrl={project.imgUrl}
                         title={project.title}
                         stack={project.stack}
@@ -23,4 +23,4 @@ function Portfolio(){
     )
 }
 
-export default Portfolio;
+export default Lab; /* Lab */

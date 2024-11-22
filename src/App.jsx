@@ -7,7 +7,7 @@
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import Portfolio from "./components/Portfolio";
+import Lab from "./components/Lab";
 import GradientBackground from "./components/GradientBackground";
 import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
@@ -25,7 +25,7 @@ function App() {
         <Navbar setActiveSection={setActiveSection} />
         {/* Render Content Dynamically Based on Active Section */}
         {activeSection === "Home" && <Intro />}
-        {activeSection === "Projects" && <Portfolio />}
+        {activeSection === "Projects" && <Lab />}
         {activeSection === "Links" && <div>Links Section Coming Soon...</div>}
         {activeSection === "Contact" && <div>Contact Section Coming Soon...</div>}
         {/* Footer */}

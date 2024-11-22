@@ -1,6 +1,6 @@
 import React from "react";
 
-function PortfolioItem({ imgUrl, title, stack, link }) {
+function LabItems({ imgUrl, title, stack, link }) {
   return (
     <div className="rounded-lg overflow-hidden shadow-lg">
       <a href={link} target="_blank" rel="noopener noreferrer">
@@ -19,5 +19,5 @@ function PortfolioItem({ imgUrl, title, stack, link }) {
   );
 }
 
-export default PortfolioItem;
+export default LabItems;
 
