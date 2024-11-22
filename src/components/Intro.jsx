@@ -26,11 +26,10 @@ function Intro() {
                 <span className="text-cyan-600"> React </span>
                 project, showcasing my journey into frontend development. <br />
                 Check out my other projects and the source code for this website on my{" "}
-                <a href="https://github.com/ColdByDefault" target="_blank"
-                className="text-cyan-600 hover:underline underline-offset-2 
-                decoration-2 decoration-light-Cyne"
-                rel="noreferrer noopener">GitHub
-                </a>.
+                <span
+                className="text-cyan-600 
+                decoration-2 decoration-light-Cyne">GitHub
+                </span>.
               </p>
             </div>
           </div>
