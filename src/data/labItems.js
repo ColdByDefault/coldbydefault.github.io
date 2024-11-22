@@ -2,12 +2,12 @@ export default [
     {
         title: 'Portfolio',
         imgUrl: '/assets/portfolioLogo.png',
-        stack: ['React', 'Tailwind', 'Vite'],
+        stack: ['React', 'Vite', 'Tailwind CSS'],
         link: '',
 
     },
     {
-        title: 'BeRich',
+        title: 'BeRich-tsheft Generator',
         imgUrl: '/assets/BeRich.png',
         stack: ['Python', 'Flask', 'Jinja2'],
         link: '',

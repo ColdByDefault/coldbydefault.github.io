@@ -10,6 +10,11 @@ function Navbar({ setActiveSection }) {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleNavigation = (section) => {
+    setActiveSection(section);
+    setIsMenuOpen(false); // Close the dropdown after navigating
+  };
+
   return (
     <>
       <header className="relative flex flex-wrap 
@@ -76,19 +81,19 @@ function Navbar({ setActiveSection }) {
             sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
               <button className="font-medium text-main-Cyne 
               focus:outline-none flex items-center gap-2"
-              onClick={() => setActiveSection('Home')}>
+              onClick={() => handleNavigation('Home')}>
                 <FontAwesomeIcon icon={faHouse} />
                 <span className="sm:hidden">Home</span>
               </button>
               <button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
               focus:text-main-Cyne flex items-center gap-2"
-                onClick={() => setActiveSection('Projects')}>
+                onClick={() => handleNavigation('Projects')}>
                 <FontAwesomeIcon icon={faFlask} />
                 <span className="sm:hidden">Lab</span>
               </button>
               <button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
               focus:text-main-Cyne flex items-center gap-2"
-              onClick={() => setActiveSection('Contact')}>
+              onClick={() => handleNavigation('Contact')}>
                 <FontAwesomeIcon icon={faEnvelope} />
                 <span className="sm:hidden">Contact</span>
               </button>
