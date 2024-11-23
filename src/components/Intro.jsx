@@ -1,18 +1,22 @@
 import React from "react";
 import Timeline from "./Timeline";
 import Skills from "./Skills";
+import Certifications from "./Certifications";
+import CallToAction from "./CallToAction";
+
 
 function Intro() {
   return (
     <>
     <div className="flex items-center justify-evenly min-h-screen cursor-default
     flex-col text-center pt-20 pb-6 text-white">
-        <div className="flex flex-col md:flex-row items-center md:justify-between">
+        <div className="flex flex-col rounded-2xl 
+        bg-dark-blue/60 md:bg-dark-blue/60 
+        md:backdrop-blur-lg md:p-3 
+        p-3 md:flex-row items-center md:justify-between">
           <div className="mb-6 md:mb-0">
-            <img
-              src="/assets/me5.jpg"
-              alt="Yazan"
-              className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-full object-cover mx-auto"/>
+            <img src="/assets/me5.jpg" alt="ProfilePicture"
+            className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-full object-cover mx-auto"/>
           </div>
           <div className="md:pl-6 text-center md:text-left flex-1 md:pt-12">
             <h1 className="text-2xl md:text-6xl mb-1 md:mb-3 font-bold">
@@ -34,15 +38,19 @@ function Intro() {
             </div>
           </div>
         </div>
-        <div className="flex w-full justify-evenly flex-col md:flex-row mt-32">
-          <div className="px-4 sm:px-0">
-            <h2 className="text-3xl font-bold mb-6 text-gray-400 sm:pl-16">My Journey</h2>
+        <div className="flex w-full justify-evenly flex-col md:flex-row m-16">
+          <div className="px-4 mt-12 sm:px-0">
             <Timeline />
           </div>
-          <div>
-              <h2 className="text-3xl font-bold mb-6 text-gray-400">My Skills</h2>
-              <Skills />
-          </div>
+        </div>
+        <div>
+            <Skills />
+        </div>
+        <div className="m-12">
+          <Certifications />
+        </div>
+        <div className="m-12">
+          <CallToAction />
         </div>
       </div>
     </>

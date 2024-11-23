@@ -1,8 +1,8 @@
 import React from "react";
-import labItems from "../data/labItems"; /*labItems ../data/labItems */
-import LabItems from "./LabItems"; /*LabItems ./LabItems */
+import labItems from "../data/labItems"; 
+import LabItems from "./LabItems"; 
 
-function Lab(){ /* Lab */
+function Lab(){ 
     return (
     <>
         <div className="flex flex-col md:flex-row items-center h-screen
@@ -23,4 +23,4 @@ function Lab(){ /* Lab */
     )
 }
 
-export default Lab; /* Lab */
+export default Lab; 

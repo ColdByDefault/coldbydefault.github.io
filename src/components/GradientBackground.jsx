@@ -6,7 +6,7 @@ function GradientBackground() {
       const gradient = document.getElementById("gradient-bg");
       const { clientX, clientY } = e;
 
-      if (window.innerWidth > 768) { // Only apply motion on screens larger than 768px
+      if (window.innerWidth > 768) {
         gradient.style.background = `radial-gradient(circle 1800px at 
           ${clientX}px ${clientY}px, 
           #020915 10%, 
@@ -20,7 +20,7 @@ function GradientBackground() {
           #031424 40%, 
           #021b27 60%, 
           #022430 80%, 
-          #032535 100%)`; // Static background for small screens
+          #032535 100%)`; 
       }
     };
 

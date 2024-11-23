@@ -32,6 +32,7 @@ function Timeline() {
 
   return (
     <div id="timeline" className="relative flex flex-col items-center justify-center">
+      <h2 className="text-3xl font-bold mb-6 text-gray-400 sm:pl-16">My Journey</h2>
       <div className="border-r-2 border-gray-200 dark:border-gray-700 relative"> 
         {events.map((event, index) => (
           <div key={index} className="mb-10 mr-12">

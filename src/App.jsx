@@ -12,6 +12,7 @@ import GradientBackground from "./components/GradientBackground";
 import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
 
+
 function App() {
   const [activeSection, setActiveSection] = useState("Home");
 
@@ -27,7 +28,6 @@ function App() {
         {activeSection === "Home" && <Intro />}
         {activeSection === "Projects" && <Lab />}
         {activeSection === "Links" && <div>Links Section Coming Soon...</div>}
-        {activeSection === "Contact" && <div>Contact Section Coming Soon...</div>}
         {/* Footer */}
         {activeSection === "Impressum" && <Impressum />}
         <Footer setActiveSection={setActiveSection}/> 

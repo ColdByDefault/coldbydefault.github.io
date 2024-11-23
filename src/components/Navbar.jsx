@@ -12,7 +12,7 @@ function Navbar({ setActiveSection }) {
 
   const handleNavigation = (section) => {
     setActiveSection(section);
-    setIsMenuOpen(false); // Close the dropdown after navigating
+    setIsMenuOpen(false); 
   };
 
   return (
@@ -89,21 +89,21 @@ function Navbar({ setActiveSection }) {
               focus:text-main-Cyne flex items-center gap-2"
                 onClick={() => handleNavigation('Projects')}>
                 <FontAwesomeIcon icon={faFlask} />
-                <span className="sm:hidden">Lab</span>
+                <span>Lab</span>
               </button>
-              <button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
+{/*               <button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
               focus:text-main-Cyne flex items-center gap-2"
               onClick={() => handleNavigation('Contact')}>
                 <FontAwesomeIcon icon={faEnvelope} />
                 <span className="sm:hidden">Contact</span>
-              </button>
+              </button> */}
               <a href="https://github.com/ColdByDefault"
               rel="noopener noreferrer"
               target="_blank"
               className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
               focus:text-main-Cyne flex items-center gap-2">
                 <FontAwesomeIcon icon={faGithub} />
-                <span className="sm:hidden">GitHub</span>
+                <span>GitHub</span>
               </a>
               <a href="https://linktr.ee/ColdByDefault"
               rel="noopener noreferrer"

@@ -3,17 +3,27 @@ import skillsList from "../data/skillsList";
 
 function Skills() {
   return (
-    <div className="flex flex-col items-center gap-8 bg-gray-900 text-white p-6 rounded-lg shadow-lg mt-12">
+    <div
+    className="flex flex-col items-center gap-8 
+    text-white p-6 rounded-lg shadow-lg mt-12"
+    style={{
+      background: `linear-gradient(180deg, 
+        #020915 40%, 
+        #031424 60%, 
+        #021b27 80%, 
+        #022430 100%, 
+        #032535 100%)`
+    }}>
+      <h2 className="text-3xl font-bold mb-6 text-gray-400">My Skills</h2>
       {skillsList.map((category, index) => (
         <div key={index} className="w-full">
           <h3 className="text-xl font-semibold mb-2 text-main-Cyne">{category.category}</h3>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+          <ul className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 gap-4">
             {category.skills.map((skill, skillIndex) => (
-              <li
-                key={skillIndex}
-                className="flex flex-col items-center bg-gray-800 p-3 rounded-md shadow-sm 
-                hover:bg-shadow-Cyne hover:text-black transition duration-300"
-              >
+              <li key={skillIndex}
+              className="flex flex-col items-center bg-gray-800 p-3 rounded-md shadow-sm 
+              hover:scale-110 hover:shadow-2xl hover:transform hover:translate-[-5px] 
+              hover:bg-shadow-Cyne hover:text-black transition-all duration-500 ease-out">
                 <img
                   src={skill.icon}
                   alt={`${skill.name} icon`}
