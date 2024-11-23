@@ -10,7 +10,7 @@ function Intro() {
     <>
     <div className="flex items-center justify-evenly min-h-screen cursor-default
     flex-col text-center pt-20 pb-6 text-white">
-        <div className="flex flex-col rounded-2xl 
+        <div className="w-full md:w-[65%] p-6 flex flex-col rounded-2xl 
         md:backdrop-blur-lg md:p-6 
         md:flex-row items-center md:justify-between"
         style={{
