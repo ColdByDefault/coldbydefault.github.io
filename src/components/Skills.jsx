@@ -5,7 +5,7 @@ function Skills() {
   return (
     <div
     className="flex flex-col items-center gap-8 
-    text-white p-6 rounded-lg shadow-lg mt-12"
+    text-white p-6 rounded-2xl shadow-lg mt-12"
     style={{
       background: `linear-gradient(180deg, 
         #020915 40%, 
@@ -18,7 +18,7 @@ function Skills() {
       {skillsList.map((category, index) => (
         <div key={index} className="w-full">
           <h3 className="text-xl font-semibold mb-2 text-main-Cyne">{category.category}</h3>
-          <ul className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 gap-4">
+          <ul className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {category.skills.map((skill, skillIndex) => (
               <li key={skillIndex}
               className="flex flex-col items-center bg-gray-800 p-3 rounded-md shadow-sm 

@@ -11,9 +11,16 @@ function Intro() {
     <div className="flex items-center justify-evenly min-h-screen cursor-default
     flex-col text-center pt-20 pb-6 text-white">
         <div className="flex flex-col rounded-2xl 
-        bg-dark-blue/60 md:bg-dark-blue/60 
-        md:backdrop-blur-lg md:p-3 
-        p-3 md:flex-row items-center md:justify-between">
+        md:backdrop-blur-lg md:p-6 
+        md:flex-row items-center md:justify-between"
+        style={{
+          background: `linear-gradient(180deg, 
+            #020915 10%, 
+            #031424 40%, 
+            #021b27 60%, 
+            #022430 80%, 
+            #032535 100%)`
+         }}>
           <div className="mb-6 md:mb-0">
             <img src="/assets/me5.jpg" alt="ProfilePicture"
             className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] rounded-full object-cover mx-auto"/>
@@ -38,18 +45,25 @@ function Intro() {
             </div>
           </div>
         </div>
-        <div className="m-12">
+        <div className="px-6 grid grid-cols-1 md:grid-cols-2 gap-6 w-full 
+        md:w-[65%] mt-16 backdrop-blur-lg rounded-2xl"
+        style={{
+          background: `linear-gradient(180deg, 
+            #020915 40%, 
+            #031424 80%, 
+            #032535 100%)`
+         }}>
+          <div>
             <Certifications />
-        </div>
-        <div className="flex w-full justify-evenly flex-col md:flex-row m-16">
-          <div className="px-4 mt-12 sm:px-0">
+          </div>
+          <div>
             <Timeline />
           </div>
         </div>
-        <div>
+        <div className="w-full md:w-[65%]">
             <Skills />
         </div>
-        <div className="m-12">
+        <div className="m-12 w-full md:w-[65%]">
           <CallToAction />
         </div>
       </div>

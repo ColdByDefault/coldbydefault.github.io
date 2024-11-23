@@ -62,7 +62,7 @@ function Timeline() {
   }, []);
 
   return (
-    <div id="timeline" className="relative flex flex-col items-center justify-center">
+    <div id="timeline" className="relative flex flex-col items-center justify-center mt-24">
       <h2 className="text-3xl font-bold mb-6 text-gray-400 sm:pl-16">
         My Journey
       </h2>
@@ -70,13 +70,12 @@ function Timeline() {
         {events.map((event, index) => (
           <div
             key={index}
-            className="timeline-event mb-10 mr-12 opacity-0 transform translate-x-20 transition-all duration-700 ease-out group relative"
-          >
-            {/* Timeline dot */}
+            className="timeline-event mb-10 mr-12 opacity-0 
+            transform translate-x-20 transition-all duration-700 ease-out group relative">
             <div
               className="absolute w-3 h-3 bg-main-Cyne rounded-full 
-              -right-[14.5px] border border-gray-200 dark:border-gray-700 scale-75 transition-transform duration-500"
-            ></div>
+              -right-[14.5px] border border-gray-200 dark:border-gray-700 
+              scale-75 transition-transform duration-500"></div>
 
             {/* Event details */}
             <div className="flex flex-col gap-2 text-right">
@@ -91,13 +90,12 @@ function Timeline() {
                 {event.description2}
               </p>
             </div>
-
-            {/* Hover card */}
             <div
-              className="hidden lg:group-hover:flex absolute -right-[250px] top-0 w-[200px] p-4 bg-gray-800 
-              text-white rounded-lg shadow-lg transition-all duration-500 ease-in-out z-10 opacity-0 
-              group-hover:opacity-100 group-hover:translate-x-4"
-            >
+              className="hidden lg:group-hover:flex absolute -right-[200px] 
+              top-0 w-[150px] p-4 bg-gray-800 
+              text-white rounded-lg shadow-lg transition-all duration-500 
+              ease-in-out z-10 opacity-0 
+              group-hover:opacity-100 group-hover:translate-x-4">
               <div>
                 <h4 className="text-md font-semibold">{event.cardTitle}</h4>
                 <p className="text-sm">{event.cardDescription}</p>
