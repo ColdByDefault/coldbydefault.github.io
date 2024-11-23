@@ -91,7 +91,7 @@ function Navbar({ setActiveSection }) {
                 <FontAwesomeIcon icon={faFlask} />
                 <span>Lab</span>
               </button>
-{/*               <button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
+              {/*<button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
               focus:text-main-Cyne flex items-center gap-2"
               onClick={() => handleNavigation('Contact')}>
                 <FontAwesomeIcon icon={faEnvelope} />

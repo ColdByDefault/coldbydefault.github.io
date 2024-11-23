@@ -38,6 +38,9 @@ function Intro() {
             </div>
           </div>
         </div>
+        <div className="m-12">
+            <Certifications />
+        </div>
         <div className="flex w-full justify-evenly flex-col md:flex-row m-16">
           <div className="px-4 mt-12 sm:px-0">
             <Timeline />
@@ -45,9 +48,6 @@ function Intro() {
         </div>
         <div>
             <Skills />
-        </div>
-        <div className="m-12">
-          <Certifications />
         </div>
         <div className="m-12">
           <CallToAction />
