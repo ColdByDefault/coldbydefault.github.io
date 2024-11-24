@@ -30,5 +30,4 @@ function Impressum() {
     </div>
   );
 }
-
 export default Impressum;
