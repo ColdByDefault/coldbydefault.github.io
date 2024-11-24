@@ -4,16 +4,8 @@ import skillsList from "../data/skillsList";
 function Skills() {
   return (
     <div
-    className="flex flex-col items-center gap-8 
-    text-white p-6 rounded-2xl shadow-lg mt-12"
-    style={{
-      background: `linear-gradient(180deg, 
-        #020915 40%, 
-        #031424 60%, 
-        #021b27 80%, 
-        #022430 100%, 
-        #032535 100%)`
-    }}>
+    className="flex flex-col items-center gap-8 bg-comp-black
+    text-white p-6 rounded-2xl shadow-lg mt-12">
       <h2 className="text-3xl font-bold mb-6 text-gray-400">My Skills</h2>
       {skillsList.map((category, index) => (
         <div key={index} className="w-full">

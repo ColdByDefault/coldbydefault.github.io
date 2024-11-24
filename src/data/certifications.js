@@ -1,15 +1,20 @@
 const certifications = [
     {
         title: "PCEP Certified",
-        description: "Python Entry-Level Programmer",
+        description: "- Python Entry-Level Programmer",
     },
     {
-        title: "???",
-        description: "???",
+        title: "GitHub",
+        description: "- Fundamentals",
     },
     {
-        title: "???",
-        description: "???",
+        title: "Udemy",
+        description: "- 100 Days Python-Camp",
+        description2: "- Social Engineering",
+    },
+    {
+        title: "Meta",
+        description: "- Introduction for Front-End Development",
     },
 ];
 

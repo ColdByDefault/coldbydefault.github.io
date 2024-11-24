@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faFlask, faEnvelope, faHouse, faTree } from "@fortawesome/free-solid-svg-icons";
+import { faFlask, faEnvelope, faHouse } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar({ setActiveSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,23 +96,7 @@ function Navbar({ setActiveSection }) {
                 <FontAwesomeIcon icon={faEnvelope} />
                 <span className="sm:hidden">Contact</span>
               </button> */}
-              <a href="https://github.com/ColdByDefault"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
-              focus:text-main-Cyne flex items-center gap-2">
-                <FontAwesomeIcon icon={faGithub} />
-                <span>GitHub</span>
-              </a>
-              <a href="https://linktr.ee/ColdByDefault"
-              rel="noopener noreferrer"
-              target="_blank"
-              className="font-medium text-gray-300 hover:text-green-500 focus:outline-none 
-              focus:text-green-500 flex items-center gap-2">
-                <span className="hidden sm:inline">Link</span>
-                <FontAwesomeIcon icon={faTree} />
-                <span className="sm:hidden">Link</span>
-              </a>
+              
             </div>
           </div>
         </nav>

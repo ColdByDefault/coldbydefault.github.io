@@ -17,7 +17,7 @@ function App() {
   const [activeSection, setActiveSection] = useState("Home");
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen overflow-x-hidden">
       {/* Gradient Background */}
       <GradientBackground />
       {/* Dynamic Content */}

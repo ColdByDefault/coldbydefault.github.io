@@ -15,6 +15,7 @@ export default {
         'main-Cyne' : '#00bbf0',
         'light-Cyne' : '#00bbf0',
         'shadow-Cyne' : '#00bcf06c',
+        'comp-black' : '#0002033d',
       },
       scrollBehavior: {
         smooth: 'smooth',
