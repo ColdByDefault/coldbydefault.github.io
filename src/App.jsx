@@ -11,6 +11,7 @@ import Lab from "./components/Lab";
 import GradientBackground from "./components/GradientBackground";
 import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
+import Blogs from "./components/Blogs";
 
 
 function App() {
@@ -27,7 +28,8 @@ function App() {
         {/* Render Content Dynamically Based on Active Section */}
         {activeSection === "Home" && <Intro />}
         {activeSection === "Projects" && <Lab />}
-        {activeSection === "Links" && <div>Links Section Coming Soon...</div>}
+        {/*{activeSection === "Links" && <div>Links Section Coming Soon...</div>} */}
+        {activeSection === "Blog" && <div><Blogs /></div>}
         {/* Footer */}
         {activeSection === "Impressum" && <Impressum />}
         <Footer setActiveSection={setActiveSection}/> 

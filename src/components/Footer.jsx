@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer({ setActiveSection }) {
   return (
-    <footer className="bg-dark-blue text-white py-2 text-center">
-      <div className="container mx-auto flex items-center justify-around">
-        <p className="text-sm mb-2">
+    <footer className="bg-dark-blue text-white py-4 text-center">
+      <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 px-4">
+        <p className="text-sm text-center sm:text-left">
           Copyright © 2024{" "}
           <span className="font-bold text-main-Cyne">ColdByDefault</span>. All rights reserved.
         </p>

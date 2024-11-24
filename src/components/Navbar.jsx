@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlask, faEnvelope, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faFlask, faEnvelope, faHouse, faPenFancy } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar({ setActiveSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -90,13 +90,12 @@ function Navbar({ setActiveSection }) {
                 <FontAwesomeIcon icon={faFlask} />
                 <span>Lab</span>
               </button>
-              {/*<button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
+              <button className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
               focus:text-main-Cyne flex items-center gap-2"
-              onClick={() => handleNavigation('Contact')}>
-                <FontAwesomeIcon icon={faEnvelope} />
-                <span className="sm:hidden">Contact</span>
-              </button> */}
-              
+              onClick={() => handleNavigation('Blog')}>
+                <FontAwesomeIcon icon={faPenFancy} />
+                <span>Blog</span>
+              </button>
             </div>
           </div>
         </nav>
