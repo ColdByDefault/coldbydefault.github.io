@@ -3,7 +3,7 @@ import skillsList from "../data/skillsList";
 
 function Skills() {
   return (
-<div className="flex flex-col items-center gap-6 bg-comp-black
+<div className="flex flex-col items-center gap-6 bg-dark-blue/60 backdrop-blur-lg
   text-white p-4 sm:p-6 rounded-2xl shadow-lg mt-12 w-full">
   <h2 className="text-3xl font-bold mb-4 text-gray-400">My Skills</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
@@ -16,8 +16,8 @@ function Skills() {
           {category.skills.map((skill, skillIndex) => (
             <li
               key={skillIndex}
-              className="flex flex-col items-center bg-gray-800 p-3 rounded-md shadow-sm 
-              hover:scale-110 hover:shadow-2xl hover:bg-shadow-Cyne hover:text-black 
+              className="flex flex-col items-center bg-shadow-Cyne/20 backdrop-blur-lg p-3 rounded-md shadow-sm 
+              hover:scale-105 hover:shadow-2xl hover:bg-shadow-Cyne hover:text-black 
               transition-all duration-500 ease-out">
               <img
                 src={skill.icon}

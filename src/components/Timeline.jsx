@@ -53,12 +53,12 @@ function Timeline() {
             </div>
             <div
               className="hidden lg:group-hover:flex absolute -right-[200px] 
-              top-0 w-[150px] p-4 bg-gray-800 
+              top-0 w-[150px] p-4 bg-dark-blue backdrop-blur-lg
               text-white rounded-lg shadow-lg transition-all duration-500 
               ease-in-out z-10 opacity-0 
               group-hover:opacity-100 group-hover:translate-x-4">
               <div>
-                <h4 className="text-md font-semibold">{event.cardTitle}</h4>
+                <h4 className="text-md font-semibold text-light-Cyne">{event.cardTitle}</h4>
                 <p className="text-sm">{event.cardDescription}</p>
                 {event.description2 && <p className="text-sm">{event.description2}</p>}
               </div>

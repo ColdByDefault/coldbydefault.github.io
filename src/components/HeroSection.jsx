@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <div>
       {/* Profile Section */}
-      <div className="mt-12 flex flex-col rounded-2xl 
+      <div className="mt-12 flex flex-col rounded-2xl
         md:backdrop-blur-lg md:p-6 md:flex-row md:flex-wrap items-center 
         md:justify-between w-full lg:w-full">
         <div className="mb-6 md:mb-0 md:w-[40%] lg:w-auto flex justify-center">
