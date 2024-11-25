@@ -4,7 +4,7 @@ import websitesAndAcademies from "../data/websitesAndAcademies";
 function WebsitesAndAcademies() {
   return (
     <div className="flex flex-col items-center gap-8 text-white p-6 rounded-lg 
-        shadow-lg mt-4 w-full sm:w-auto">
+        mt-4 w-full sm:w-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-400 text-center">
         Active Learning On:
         </h2>

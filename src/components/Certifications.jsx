@@ -3,8 +3,7 @@ import certifications from "../data/certifications";
 
 function Certifications() {
   return (
-    <div className="flex flex-col items-center gap-8 text-white p-6 rounded-lg 
-    shadow-lg mt-20">
+    <div className="flex flex-col items-center gap-8 text-white p-3 rounded-lg mt-20">
       <h2 className="text-3xl font-bold mb-6 text-gray-400">
         Certifications
       </h2>

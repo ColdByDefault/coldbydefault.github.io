@@ -6,41 +6,33 @@ import CallToAction from "./CallToAction";
 import WebsitesAndAcademies from "./WebsitesAndAcademies";
 import HeroSection from "./HeroSection";
 
-
 function Intro() {
   return (
-    <>
-      <div className="flex items-center justify-evenly min-h-screen cursor-default
-      flex-col text-center p-10 text-white overflow-x-hidden">
-        {/* Profile Section */}
-        <HeroSection />
-        {/* Certifications and Timeline */}
-        <div className="px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 w-full bg-comp-black 
-        lg:w-[65%] mt-24 backdrop-blur-lg rounded-2xl">
-          {/* Left Column */}
-          <div>
-            <Certifications />
-            <WebsitesAndAcademies />
-          </div>
-          {/* Middle Column (Empty for spacing) */}
-          {/* Right Column */}
-          <div className="lg:col-span-1">
-            <Timeline />
-          </div>
+    <div className="min-h-screen flex flex-col items-center text-white px-4">
+      {/* Profile Section */}
+      <HeroSection />
+      {/* Certifications and Timeline */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-6xl mt-10">
+        {/* Left Column */}
+        <div className="col-span-1">
+          <Certifications />
+          <WebsitesAndAcademies />
         </div>
-
-        {/* Skills */}
-        <div className="w-full md:w-[65%] mt-16">
-          <Skills />
-        </div>
-        {/* Call to Action */}
-        <div className="m-12 w-full md:w-[65%]">
-          <CallToAction />
+        {/* Right Column */}
+        <div className="col-span-1">
+          <Timeline />
         </div>
       </div>
-    </>
+      {/* Skills */}
+      <div className="w-full max-w-6xl mt-12">
+        <Skills />
+      </div>
+      {/* Call to Action */}
+      <div className="w-full max-w-6xl my-16">
+        <CallToAction />
+      </div>
+    </div>
   );
 }
-
 
 export default Intro;
