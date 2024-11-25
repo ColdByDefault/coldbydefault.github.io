@@ -2,15 +2,16 @@ import React from "react";
 import labItems from "../data/labItems"; 
 import LabItems from "./LabItems"; 
 
-function Lab(){ 
+function Lab() { 
     return (
     <>
         <div className="flex flex-col md:flex-row items-center h-screen
         justify-center text-white">
             <div className="grid grid-cols-1 md:grid-cols-2 
             lg:grid-cols-3 gap-4 mt-5">
-                {labItems.map(project => ( 
+                {labItems.map((project, index) => ( 
                     <LabItems 
+                        key={index} // Added key prop to fix the warning
                         imgUrl={project.imgUrl}
                         title={project.title}
                         stack={project.stack}
@@ -20,7 +21,7 @@ function Lab(){
             </div>
         </div>
     </>
-    )
+    );
 }
 
-export default Lab; 
+export default Lab;
