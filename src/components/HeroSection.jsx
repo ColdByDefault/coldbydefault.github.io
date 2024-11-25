@@ -20,7 +20,7 @@ function HeroSection() {
             Yazan Abo-Ayash
           </h1>
           <div className="flex flex-col px-4 md:px-0 items-center md:items-start">
-            <p className="text-sm md:text-base max-w-xl mb-6 font-bold text-center md:text-left">
+            <p className="text-sm md:text-base max-w-xl mb-6 text-center md:text-left">
               Hi, I am currently learning to become a software developer, focusing
               on Python and Machine Learning, with a passion for building and
               exploring new technologies. This website is my first
@@ -37,8 +37,7 @@ function HeroSection() {
               </a>.
             </p>
             <div className="flex justify-center md:justify-start flex-wrap gap-6">
-              <a
-                href="https://linktr.ee/ColdByDefault"
+              <a href="https://linktr.ee/ColdByDefault"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="font-medium text-gray-300 hover:text-green-500 focus:outline-none 
@@ -46,21 +45,24 @@ function HeroSection() {
                 Link
                 <FontAwesomeIcon icon={faTree} />
               </a>
-              <a
-                href="https://github.com/ColdByDefault"
+              <a href="https://github.com/ColdByDefault"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
                 focus:text-main-Cyne flex items-center gap-2">
                 <FontAwesomeIcon icon={faGithub} />
               </a>
-              <a
-                href="https://discord.gg/uwUUyVzb"
+              <a href="https://discord.gg/uwUUyVzb"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none 
                 focus:text-main-Cyne flex items-center gap-2">
                 <FontAwesomeIcon icon={faDiscord} />
+              </a>
+              <a href="assets/resume.pdf"
+              download="Yazan_Abo_Ayash_Resume.pdf"
+              className="font-medium text-gray-300 hover:text-gray-400 focus:outline-none focus:text-main-Cyne flex items-center gap-2">
+                Download Resume
               </a>
             </div>
           </div>

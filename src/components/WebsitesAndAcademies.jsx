@@ -6,7 +6,7 @@ function WebsitesAndAcademies() {
     <div className="flex flex-col items-center gap-8 text-white p-6 rounded-lg 
         mt-4 w-full sm:w-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-400 text-center">
-        Active Learning On:
+        Active Learning On
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center w-full">
             {websitesAndAcademies.map((entry, index) => (
