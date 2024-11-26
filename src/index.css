@@ -6,30 +6,6 @@ html {
     scroll-behavior: smooth;  
     background: #000;
 }
-  
-@layer utilities {
-    .animate-bounce {
-        @apply inline-block;
-        animation: bounce 1.2s infinite;
-    }
-
-    .delay-200 {
-        animation-delay: 0.2s;
-    }
-
-    .delay-400 {
-        animation-delay: 0.4s;
-    }
-
-    @keyframes bounce {
-        0%, 100% {
-        transform: translateY(0);
-        }
-        50% {
-        transform: translateY(-15px);
-        }
-    }
-}
 
 .test-colors-pallete{
     color:#0002033d;
