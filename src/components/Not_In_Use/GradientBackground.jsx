@@ -11,16 +11,16 @@ function GradientBackground() {
           ${clientX}px ${clientY}px, 
           #020915 10%, 
           #031424 40%, 
-          #021b27 60%, 
-          #022430 80%, 
-          #032535 100%)`;
+          #021b27 60%,
+          #021f2b 80%,
+          #021a26 100%)`;
       } else {
         gradient.style.background = `radial-gradient(circle, 
           #020915 10%, 
           #031424 40%, 
-          #021b27 60%, 
-          #022430 80%, 
-          #032535 100%)`; 
+          #021b27 60%,
+          #021f2b 80%, 
+          #021a26 100%)`
       }
     };
 
@@ -37,9 +37,9 @@ function GradientBackground() {
         background: `radial-gradient(circle, 
           #020915 10%, 
           #031424 40%, 
-          #021b27 60%, 
-          #022430 80%, 
-          #032535 100%)`
+          #021b27 60%,
+          #021f2b 80%, 
+          #021a26 100%)`
       }}></div>
   );
 }

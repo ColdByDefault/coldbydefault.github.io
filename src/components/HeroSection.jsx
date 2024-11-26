@@ -17,7 +17,7 @@ function HeroSection() {
         </div>
         <div className="md:pl-6 text-center md:text-left flex-1 md:pt-8">
           <h1 className="text-2xl md:text-5xl lg:text-6xl mb-1 md:mb-3 font-bold">
-            Yazan Abo-Ayash
+            Yazan Abo<span className="text-cyan-600">-</span>Ayash
           </h1>
           <div className="flex flex-col px-4 md:px-0 items-center md:items-start">
             <p className="text-sm md:text-base max-w-xl mb-6 text-center md:text-left">
@@ -28,7 +28,7 @@ function HeroSection() {
               project, showcasing my journey into frontend development. <br />
               Check out my other projects and the source code for this website on my{" "}
               <a
-                href="https://github.com/ColdByDefault"
+                href="https://github.com/ColdByDefault/coldbydefault.github.io"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="text-cyan-600 

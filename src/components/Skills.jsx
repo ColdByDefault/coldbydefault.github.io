@@ -3,7 +3,7 @@ import skillsList from "../data/skillsList";
 
 function Skills() {
   return (
-<div className="flex flex-col items-center gap-6 bg-dark-blue/60 backdrop-blur-lg
+<div className="flex flex-col items-center gap-6 bg-dark-blue  backdrop-blur-lg
   text-white p-4 sm:p-6 rounded-2xl shadow-lg mt-12 w-full">
   <h2 className="text-3xl font-bold mb-4 text-gray-400">My Technical Foundation</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">

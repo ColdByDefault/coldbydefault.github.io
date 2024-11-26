@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Lab from "./components/Lab";
-import GradientBackground from "./components/GradientBackground";
+/* import GradientBackground from "./components/GradientBackground"; */
 import Footer from "./components/Footer";
 import Impressum from "./components/Impressum";
 import Blogs from "./components/Blogs";
@@ -28,7 +28,7 @@ function App() {
       {showContent && (
         <div className="relative min-h-screen overflow-x-hidden">
           {/* Gradient Background */}
-          <GradientBackground />
+          {/* <GradientBackground /> */}
           {/* Dynamic Content */}
           <div className="relative z-10">
             {/* Navbar */}
