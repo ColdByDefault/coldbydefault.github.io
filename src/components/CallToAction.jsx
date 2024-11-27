@@ -2,7 +2,7 @@ import React from "react";
 
 function CallToAction() {
   return (
-    <div className="bg-dark-blue/60 backdrop-blur-lg text-white p-6 rounded-lg shadow-lg flex flex-col items-center">
+    <div className="bg-new-bg-second backdrop-blur-lg text-white p-6 rounded-lg shadow-lg flex flex-col items-center">
       <h2 className="text-2xl font-bold mb-4 text-main-Cyne">Let's Work Together</h2>
       <p className="text-sm text-center mb-4">
         Have a project in mind or want to collaborate? Reach out to me!

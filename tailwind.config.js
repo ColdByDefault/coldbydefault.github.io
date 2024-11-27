@@ -16,6 +16,9 @@ export default {
         'light-Cyne' : '#00bbf0',
         'shadow-Cyne' : '#00bcf06c',
         'comp-black' : '#0002033d',
+        'new-bg-prime' : '#020306',
+        'new-bg-second' : '#060608',
+        'new-bg-third' : '#1c1c27',
       },
       scrollBehavior: {
         smooth: 'smooth',

@@ -21,7 +21,7 @@ function Navbar({ setActiveSection }) {
         w-full text-sm py-3 font-inter z-50">
         <nav className="w-full sm:max-w-[85%] px-4 sm:flex 
         sm:items-center sm:justify-evenly 
-        bg-dark-blue rounded-lg p-2 mx-auto relative">
+        bg-new-bg-second rounded-lg p-2 mx-auto relative">
           <div className="flex items-center justify-between">
             <div className="flex-none text-xl font-semibold focus:outline-none cursor-default
             text-white ">
@@ -74,7 +74,7 @@ function Navbar({ setActiveSection }) {
           </div>
           <div id="navbar-menu"
           className={`${
-              isMenuOpen ? 'absolute top-full left-0 w-full bg-dark-blue/60 backdrop-blur-lg p-5 rounded-b-lg' : 'hidden'
+              isMenuOpen ? 'absolute top-full left-0 w-full bg-new-bg-second/10 backdrop-blur-lg p-5 rounded-b-lg' : 'hidden'
             } sm:block transition-all duration-300 z-40`}>
             <div className="flex flex-col items-center justify-center gap-8 
             sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
