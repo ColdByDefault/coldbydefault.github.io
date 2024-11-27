@@ -14,6 +14,9 @@ import Impressum from "./components/Impressum";
 import Blogs from "./components/Blogs";
 import LoadingScreen from "./components/LoadingScreen";
 
+// Import i18n
+import "./i18n";
+
 function App() {
   const [showContent, setShowContent] = useState(false);
   const [activeSection, setActiveSection] = useState("Home");
@@ -47,4 +50,6 @@ function App() {
 }
 
 export default App;
+
+
 

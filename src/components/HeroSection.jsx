@@ -2,8 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faTree } from "@fortawesome/free-solid-svg-icons";
+import { useTranslation } from "react-i18next";
 
 function HeroSection() {
+  const { t } = useTranslation(); // Hook to get translation function
   return (
     <div>
       {/* Profile Section */}
@@ -55,7 +57,7 @@ function HeroSection() {
               <a href="assets/resume.pdf"
               download="Yazan_Abo_Ayash_Resume.pdf"
               className="font-medium text-gray-300 hover:text-cyan-400 focus:outline-none focus:text-main-Cyne flex items-center gap-2">
-                Download Resume
+                {t("Download Resume")}
               </a>
             </div>
           </div>

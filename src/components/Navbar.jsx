@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlask, faEnvelope, faHouse, faPenFancy } from "@fortawesome/free-solid-svg-icons";
+import { faFlask, faHouse, faPenFancy } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar({ setActiveSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

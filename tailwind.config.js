@@ -18,7 +18,7 @@ export default {
         'comp-black' : '#0002033d',
         'new-bg-prime' : '#020306',
         'new-bg-second' : '#060608',
-        'new-bg-third' : '#1c1c27',
+        'new-bg-third' : '#20202c',
       },
       scrollBehavior: {
         smooth: 'smooth',
