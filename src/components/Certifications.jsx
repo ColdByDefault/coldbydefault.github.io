@@ -11,7 +11,7 @@ function Certifications() {
         {certifications.map((cert, index) => (
           <div
             key={index}
-            className="p-4 bg-new-bg-third/20 backdrop-blur-lg rounded-lg text-center
+            className="p-4 bg-new-bg-fourth backdrop-blur-lg rounded-lg text-center
             hover:scale-105 hover:shadow-2xl hover:bg-shadow-Cyne hover:transition-all duration-500 ease-out">
             <h3 className="text-lg font-bold">{cert.title}</h3>
             <div className="text-sm">

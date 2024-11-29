@@ -11,7 +11,7 @@ function HeroSection() {
       {/* Profile Section */}
       <div className="mt-12 flex flex-col rounded-2xl bg-new-bg-second
         md:backdrop-blur-lg md:p-6 md:flex-row md:flex-wrap items-center 
-        md:justify-between w-full lg:w-full">
+        md:justify-between w-full lg:w-full sm:py-4">
         <div className="mb-6 md:mb-0 md:w-[40%] lg:w-auto flex justify-center">
           <img src="/assets/me5.jpg" 
             alt="ProfilePicture"

@@ -16,7 +16,7 @@ function Skills() {
           {category.skills.map((skill, skillIndex) => (
             <li
               key={skillIndex}
-              className="flex flex-col items-center bg-new-bg-third/20 backdrop-blur-lg p-3 rounded-md shadow-sm 
+              className="flex flex-col items-center bg-new-bg-fourth backdrop-blur-lg p-3 rounded-md shadow-sm 
               hover:scale-105 hover:shadow-2xl hover:bg-shadow-Cyne hover:transition-all duration-500 ease-out">
               <img
                 src={skill.icon}
