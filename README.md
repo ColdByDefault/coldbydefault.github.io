@@ -20,6 +20,7 @@ This React app is designed to be a simple, clean, and modern landing page for my
 
 - **React + Vite**: For building the UI components.
 - **CSS + Tailwind**: For styling and animations.
+- **MUI**: For React UI tools.
 - **GitHub Pages**: For deployment and hosting.
 - **Squarespace DNS**: For custom domain management.
 
