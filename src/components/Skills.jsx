@@ -21,8 +21,7 @@ function Skills() {
               <img
                 src={skill.icon}
                 alt={`${skill.name} icon`}
-                className="w-6 h-6 mb-2"
-              />
+                className="w-6 h-6 mb-2"/>
               <span className="text-sm">{skill.name}</span>
             </li>
           ))}

@@ -3,7 +3,7 @@ import MultiActionAreaCard from "./MultiActionAreaCard";
 
 function Lab() {
   return (
-    <div className="min-h-screen grid grid-cols-1 items-center justify-center 
+    <div className="min-h-screen grid grid-cols-1  
     lg:grid-cols-2 gap-6 p-4 text-white">
         {/* Projects Section */}
         <div className="bg-new-bg-second rounded-lg shadow-lg p-6">

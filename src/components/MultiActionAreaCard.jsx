@@ -13,15 +13,14 @@ function MultiActionAreaCard({ section }) {
 
   return (
       <>
-        <div className="grid grid-cols-1 gap-3 items-center justify-center lg:grid-cols-3">
+        <div className="flex flex-wrap gap-3 px-5 justify-center items-center">
           {filteredItems.map((item, index) => (
             <Card key={index} sx={{ maxWidth: 255,
                 backgroundColor: "#0b0b0e", 
                 transition: "box-shadow 0.3s",
                 "&:hover": {
                   boxShadow: "0 8px 20px #3c4245",
-                },
-              }}>
+                },}}>
               <CardActionArea component="a"
                 href={item.link}
                 target="_blank"
@@ -39,15 +38,13 @@ function MultiActionAreaCard({ section }) {
                       fontWeight: "bold",
                       "&:hover": {
                         color: "#00bbf0",
-                      },
-                    }}>
+                      },}}>
                     {item.title}
                   </Typography>
                   <Typography
                     variant="body2"
                     sx={{
-                      color: "rgba(255, 255, 255, 0.8)",
-                    }}>
+                      color: "rgba(255, 255, 255, 0.8)",}}>
                     {item.stack.join(", ")}
                   </Typography>
                 </CardContent>
@@ -60,8 +57,7 @@ function MultiActionAreaCard({ section }) {
                       color: "#eaf6f6", 
                       "&:hover": {
                         color: "#00bbf0",
-                      },
-                    }}
+                      },}}
                     href={item.link}
                     target="_blank">
                     Visit
@@ -72,8 +68,7 @@ function MultiActionAreaCard({ section }) {
                       color: "#eaf6f6", 
                       "&:hover": {
                         color: "#00bbf0",
-                      },
-                    }}
+                      },}}
                     href={item.link2}
                     target="_blank">
                     Source Code
