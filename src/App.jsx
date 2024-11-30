@@ -41,6 +41,7 @@ function App() {
             {activeSection === "Projects" && <Lab />}
             {activeSection === "Blog" && <div><Blogs /></div>}
             {activeSection === "Impressum" && <Impressum />}
+            {/* Footer */}
             <Footer setActiveSection={setActiveSection} />
           </div>
         </div>

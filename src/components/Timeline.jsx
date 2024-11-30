@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import "../styles/TimelineStyles.css";
-import events from "../data/timeline";
+import { useTranslation } from "react-i18next";
 
 function Timeline() {
+  const { t } = useTranslation();
+  const events = t("timeline.events", { returnObjects: true }); // Retrieve events array from JSON
+
   useEffect(() => {
     const handleScroll = () => {
       const elements = document.querySelectorAll(".timeline-event");
@@ -25,7 +28,7 @@ function Timeline() {
   return (
     <div id="timeline" className="relative flex flex-col items-center justify-center mt-24">
       <h2 className="text-3xl font-bold mb-6 text-gray-400 sm:pl-16">
-        My Journey
+        {t("timeline.title")}
       </h2>
       <div className="border-r-2 border-gray-200 dark:border-gray-700 relative">
         {events.map((event, index) => (

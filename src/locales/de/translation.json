@@ -1,0 +1,89 @@
+{
+    "home": "Startseite",
+    "projects": "Projekte",
+    "blog": "Blog",
+    "download_resume": "Lebenslauf herunter- laden",
+    "certifications": "Zertifikate",
+    "intro_message_part1": "Hallo, ich lerne derzeit, ein Softwareentwickler zu werden, mit Fokus auf Python und maschinelles Lernen, und einer Leidenschaft für den Aufbau und die Erkundung neuer Technologien.",
+    "intro_message_part2": "Diese Website ist mein erstes React-Projekt und zeigt meine Reise in die Frontend-Entwicklung.",
+    "intro_message_part3": "Schauen Sie sich meine anderen Projekte und den Quellcode dieser Website auf meinem",
+    "intro_message_part4": "<a href='https://github.com/ColdByDefault/coldbydefault.github.io' target='_blank' rel='noopener noreferrer' class='text-main-Cyne'>GitHub</a>.",
+    "my_journey": "Meine Reise in die Softwareentwicklung",
+    "journey_description": "Entdecken Sie, wie ich meine akademische und berufliche Reise in die Softwareentwicklung begann. Vom Webdesign bis zu Python und React.",
+    "active_learning": "Aktives Lernen auf",
+    "technical_foundation": "Mein Technisches Fundament",
+    "timeline": {
+        "title": "Meine Reise",
+        "events": [
+        {
+            "date": "2020",
+            "title": "Webentwicklung erkundet",
+            "description": "Begann mit dem Aufbau von Projekten mit HTML, CSS.",
+            "cardDescription": "Grundkenntnisse im Strukturieren von Webseiten und effektives Stylen von Elementen aufgebaut.",
+            "cardTitle": "Grundlagen lernen"
+        },
+        {
+            "date": "2021",
+            "title": "Begann mit Front-End-Programmierung",
+            "description": "Habe meine erste Website jemals bereitgestellt.",
+            "cardDescription": "Gelernt, wie man Designs in funktionale Webseiten mit Responsiveness umwandelt.",
+            "cardTitle": "Front-End Meilensteine"
+        },
+        {
+            "date": "2022",
+            "title": "Begann mit der Programmierung",
+            "description": "Tauchte in Python ein und erstellte meine ersten einfachen Anwendungen.",
+            "cardDescription": "Erforschte den Aufbau von Logik und entwickelte Problemlösungs- fähigkeiten durch Python-Projekte.",
+            "cardTitle": "Programmiergrundlagen"
+        },
+        {
+            "date": "2023",
+            "title": "Begann die akademische Reise als Softwareentwickler",
+            "description": "In ein formales akademisches Programm zur Softwareentwicklung eingeschrieben.",
+            "description2": "Fokus auf grundlegende Programmierung und praktische Fähigkeiten.",
+            "cardDescription": "In strukturiertes Lernen eingebunden, an kollaborativen und individuellen Projekten gearbeitet.",
+            "cardTitle": "Akademisches Wachstum"
+        },
+        {
+            "date": "2024",
+            "title": "Maschinelles Lernen lernen",
+            "description": "Tauche in Deep Learning und neuronale Netzwerke ein.",
+            "cardDescription": "Verständnis von Datenwissenschafts- konzepten und Implementierung von maschinellen Lernalgorithmen.",
+            "cardTitle": "Fortgeschrittenes Lernen"
+        }
+        ]
+    },
+    "websitesAndAcademies": {
+        "title": "Aktives Lernen auf",
+        "entries": [
+        {
+            "name": "freeCodeCamp",
+            "description": "Lernen von JavaScript und React. Herausforderungen abschließen und Projekte aktiv erstellen.",
+            "extraInfo": null,
+            "link": "https://www.freecodecamp.org"
+        },
+        {
+            "name": "Coursera",
+            "description": "Eingeschrieben in die Python for Everybody Spezialisierung. Fokus auf Backend-Entwicklung und APIs.",
+            "extraInfo": null,
+            "link": "https://www.coursera.org"
+        },
+        {
+            "name": "Khan Academy",
+            "description": "Aktiv in Kursen zur Computerprogrammierung. Stärken der Problemlösung und Algorithmen.",
+            "extraInfo": null,
+            "link": "https://www.khanacademy.org"
+        },
+        {
+            "name": "Codecademy",
+            "description": "Fortschritte im Full-Stack-Engineer-Pfad. Entwicklung von realen Webanwendungen.",
+            "extraInfo": null,
+            "link": "https://www.codecademy.com"
+        }
+        ]
+    },
+    "work_together_heading": "Lass uns zusammenarbeiten",
+    "work_together_message": "Hast du ein Projekt im Kopf oder möchtest du zusammenarbeiten? Kontaktiere mich!",
+    "work_together_cta": "Kontaktiere Mich"
+}
+  
