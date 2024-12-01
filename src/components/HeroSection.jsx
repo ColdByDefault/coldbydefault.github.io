@@ -37,13 +37,13 @@ function HeroSection() {
                 Link
                 <FontAwesomeIcon icon={faTree} />
               </a> 
-              <div class="group relative">
+              <div className="group relative">
                 <a href="https://github.com/ColdByDefault"
                 rel="noopener noreferrer"
                 target="_blank">
-                  <svg stroke-linejoin="round" stroke-linecap="round" 
-                  stroke-width="2" stroke="currentColor" fill="none" 
-                  viewBox="0 0 24 24" class="w-5 pt-1 hover:scale-95 duration-200 
+                  <svg strokeLinejoin="round" strokeLinecap="round" 
+                  strokeWidth="2" stroke="currentColor" fill="none" 
+                  viewBox="0 0 24 24" className="w-5 pt-1 hover:scale-95 duration-200 
                   hover:stroke-gray-400">
                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 
                     6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 
@@ -52,7 +52,7 @@ function HeroSection() {
                   </svg>
                 </a>
               </div>
-              <div class="group relative">
+              <div className="group relative">
                 <a href="assets/resume.pdf"
                 download="Yazan_Abo_Ayash_Resume.pdf"
                   className="w-6 h-5 flex 
@@ -60,14 +60,14 @@ function HeroSection() {
                   <svg
                     className="w-5 h-7"
                     stroke="currentColor"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-                      stroke-linejoin="round"
-                      stroke-linecap="round"></path>
+                      strokeLinejoin="round"
+                      strokeLinecap="round"></path>
                   </svg>
                 </a>
                 <span

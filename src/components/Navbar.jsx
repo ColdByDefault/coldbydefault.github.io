@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlask, faHouse, faPenFancy } from "@fortawesome/free-solid-svg-icons";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
 function Navbar({ setActiveSection }) {

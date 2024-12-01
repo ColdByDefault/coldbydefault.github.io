@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "../styles/glitchEffect.css";
 
 const chars = "-sd_sdf~`gdf!@#dfg$g%gh^&qwe*fdg()+sdf=[]{fg}|sad;:,.<>?";
 
@@ -40,7 +41,9 @@ const TextEncrypted = ({ text, interval = 50 }) => {
   }
 
   return (
-    <span className="text-gray-600">
+    <span
+      className="glitch-effect"
+      data-text={`${outputText}${remainder}`}>
       {outputText}
       {remainder}
     </span>
@@ -52,11 +55,11 @@ function LoadingScreen({ onComplete }) {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsFading(true); 
+      setIsFading(true);
       setTimeout(() => {
-        onComplete(); 
-      }, 1000); 
-    }, 1500); 
+        onComplete();
+      }, 1100);
+    }, 2200);
     return () => clearTimeout(timer);
   }, [onComplete]);
 
@@ -66,16 +69,10 @@ function LoadingScreen({ onComplete }) {
       transition-opacity duration-1000 ${
         isFading ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}>
-        <h1 className="text-gray-500 mb-8 text-4xl font-bold 
-        drop-shadow-black
-        animate-pulse">
-        <TextEncrypted text="ColdByDefault" interval={75} />
+      <h1
+        className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl mb-8 font-bold drop-shadow-black">
+        <TextEncrypted text="ColdByDefault" interval={120} />
       </h1>
-      <div className="flex items-center gap-2">
-        <span className="loading-dot bg-gray-600 w-4 h-4 rounded-full animate-bounce"></span>
-        <span className="loading-dot bg-gray-600 w-4 h-4 rounded-full animate-bounce delay-200"></span>
-        <span className="loading-dot bg-gray-600 w-4 h-4 rounded-full animate-bounce delay-400"></span>
-      </div>
     </div>
   );
 }
