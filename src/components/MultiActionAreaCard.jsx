@@ -13,7 +13,7 @@ function MultiActionAreaCard({ section }) {
 
   return (
       <>
-        <div className="flex flex-wrap gap-3 px-5 justify-center items-center">
+        <div className="flex flex-wrap gap-8 px-5 justify-center items-center">
           {filteredItems.map((item, index) => (
             <Card key={index} sx={{ maxWidth: 255,
                 backgroundColor: "#0b0b0e", 

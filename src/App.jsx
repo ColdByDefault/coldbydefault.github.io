@@ -10,9 +10,9 @@ import Intro from "./components/Intro";
 import Lab from "./components/Lab";
 /* import GradientBackground from "./components/GradientBackground"; */
 import Footer from "./components/Footer";
-import Impressum from "./components/Impressum";
-import Blogs from "./components/Blogs";
 import LoadingScreen from "./components/LoadingScreen";
+import Blogs from "./components/Blogs";
+import BlogPost from "./components/BlogPost";
 
 // Import i18n
 import "./i18n";
@@ -20,6 +20,7 @@ import "./i18n";
 function App() {
   const [showContent, setShowContent] = useState(false);
   const [activeSection, setActiveSection] = useState("Home");
+  const [selectedBlog, setSelectedBlog] = useState(null);
 
   const handleLoadingComplete = () => {
     setShowContent(true);
@@ -30,18 +31,22 @@ function App() {
       {!showContent && <LoadingScreen onComplete={handleLoadingComplete} />}
       {showContent && (
         <div className="relative min-h-screen overflow-x-hidden">
-          {/* Gradient Background */}
-          {/* <GradientBackground /> */}
-          {/* Dynamic Content */}
           <div className="relative z-10">
-            {/* Navbar */}
             <Navbar setActiveSection={setActiveSection} />
-            {/* Render Content Dynamically Based on Active Section */}
             {activeSection === "Home" && <Intro />}
             {activeSection === "Projects" && <Lab />}
-            {activeSection === "Blog" && <div><Blogs /></div>}
-            {activeSection === "Impressum" && <Impressum />}
-            {/* Footer */}
+            {activeSection === "Blog" && (
+              <Blogs
+                setActiveSection={setActiveSection}
+                setSelectedBlog={setSelectedBlog}
+              />
+            )}
+            {activeSection === "BlogPost" && (
+              <BlogPost
+                selectedBlog={selectedBlog}
+                setActiveSection={setActiveSection}
+              />
+            )}
             <Footer setActiveSection={setActiveSection} />
           </div>
         </div>
