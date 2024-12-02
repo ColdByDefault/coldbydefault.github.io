@@ -70,7 +70,7 @@ function LoadingScreen({ onComplete }) {
         isFading ? "opacity-0 pointer-events-none" : "opacity-100"
       }`}>
       <h1
-        className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl mb-8 font-bold drop-shadow-black">
+        className="text-xl  mb-8 font-bold drop-shadow-black">
         <TextEncrypted text="ColdByDefault" interval={120} />
       </h1>
     </div>
