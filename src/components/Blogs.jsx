@@ -8,7 +8,7 @@ function Blogs({ setActiveSection, setSelectedBlog }) {
   };
 
   return (
-    <div className="flex flex-col items-center gap-8 px-4 py-8 max-w-screen-lg mx-auto">
+    <div className="flex flex-col items-center gap-8 px-4 py-8 max-w-screen-lg mx-auto h-full">
       <h2 className="text-3xl font-bold text-gray-400 mb-6">My Blogs</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogs.map((blog, index) => (
