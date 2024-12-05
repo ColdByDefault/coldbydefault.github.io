@@ -16,7 +16,8 @@ function MultiActionAreaCard({ section }) {
         <div className="flex flex-wrap gap-8 px-5 justify-center items-center">
           {filteredItems.map((item, index) => (
             <Card key={index} sx={{ maxWidth: 255,
-                backgroundColor: "#0b0b0e", 
+                backgroundColor: "#0b0b0e",
+                border: "solid 1px white",
                 transition: "box-shadow 0.3s",
                 "&:hover": {
                   boxShadow: "0 8px 20px #3c4245",
