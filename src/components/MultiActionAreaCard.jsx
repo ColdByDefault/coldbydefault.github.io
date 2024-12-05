@@ -58,7 +58,7 @@ function MultiActionAreaCard({ section }) {
                       "&:hover": {
                         color: "#00bbf0",
                       },}}
-                    href={item.link}
+                    href={item.liveLink}
                     target="_blank">
                     Visit
                   </Button>
@@ -69,7 +69,7 @@ function MultiActionAreaCard({ section }) {
                       "&:hover": {
                         color: "#00bbf0",
                       },}}
-                    href={item.link2}
+                    href={item.sourceLink}
                     target="_blank">
                     Source Code
                   </Button>
