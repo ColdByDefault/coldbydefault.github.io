@@ -8,7 +8,7 @@ import HeroSection from "./HeroSection";
 
 function Intro() {
   return (
-    <div className="min-h-screen flex flex-col items-center text-white px-4 mt-20">
+    <div className="min-h-screen flex flex-col items-center text-white px-4">
       {/* Profile Section */}
       <HeroSection  />
       {/* Certifications and Timeline */}

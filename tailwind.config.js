@@ -20,6 +20,7 @@ export default {
         'new-bg-second' : '#060608',
         'new-bg-third' : '#20202c',
         'new-bg-fourth' : '#0b0b0e',
+        'new-bg-21' : '#0B0C0D',
       },
       scrollBehavior: {
         smooth: 'smooth',
