@@ -25,10 +25,18 @@ export default [
   },
   {
     section: "websites",
-    title: "E-Commerce Platform",
+    title: "Unavailable",
     imgUrl: "/assets/projects/pizzaHaus.png",
     stack: ["Wordpress", "Elementor"],
     link: "",
     link: "",
+  },
+  {
+    section: "websites",
+    title: "Photographer Website",
+    imgUrl: "/assets/projects/photographer.png",
+    stack: ["React", "Vite", "Tailwind CSS"],
+    link: "https://www.coldbydefault.com/PhotographerStudio/",
+    link: "https://github.com/ColdByDefault/PhotographerStudio",
   },
 ];
