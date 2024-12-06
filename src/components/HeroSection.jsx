@@ -18,35 +18,44 @@ function HeroSection() {
       {/* Overlay Section */}
       <div className="absolute inset-0 bg-new-bg-21 bg-opacity-50 z-10"></div>
       {/* Profile Section */}
-      <div className="absolute bottom-28 lg:left-8 z-20 p-6 flex flex-col rounded-2xl 
-        md:p-6 md:flex-row md:flex-wrap items-center 
-        md:justify-between w-full max-w-screen-2xl mx-auto">
+      <div className="absolute lg:bottom-28 lg:left-8 z-20 p-6 flex flex-col rounded-2xl 
+        md:p-6 md:flex-row md:flex-wrap items-center
+        md:justify-between w-full max-w-screen-2xl mx-auto
+        bottom-16">
         <div className="md:mb-0 md:w-[50%] lg:w-auto flex flex-col justify-center items-start text-white px-6">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          {/* Name Section */}
+          <h1 className="text-2xl sm:text-3xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Yazan Abo-Ayash
           </h1>
-          <p className="text-base md:text-lg max-w-lg mb-6 text-white">
+          {/* Paragraph Section */}
+          <p className="text-sm sm:text-base md:text-lg max-w-lg mb-6 text-white">
             {t("intro_message_part1")} {t("intro_message_part2")}{" "}
             {t("intro_message_part3")}{" "}
             <span
               dangerouslySetInnerHTML={{
                 __html: t("intro_message_part4"),
-              }}></span>
+              }}
+            ></span>
           </p>
+          {/* Links */}
           <div className="flex justify-center md:justify-start flex-wrap gap-6">
-            <a href="https://linktr.ee/ColdByDefault"
+            <a
+              href="https://linktr.ee/ColdByDefault"
               rel="noopener noreferrer"
               target="_blank"
               className="font-medium text-gray-300 hover:text-green-500 hover:scale-95 duration-200 
                 focus:outline-none 
-                focus:text-green-500 flex items-center gap-2">
-                Link
-                <FontAwesomeIcon icon={faTree} />
+                focus:text-green-500 flex items-center gap-2"
+            >
+              Link
+              <FontAwesomeIcon icon={faTree} />
             </a>
-            <a href="https://github.com/ColdByDefault"
+            <a
+              href="https://github.com/ColdByDefault"
               rel="noopener noreferrer"
               target="_blank"
-              className="hover:scale-95 duration-200 hover:text-gray-400">
+              className="hover:scale-95 duration-200 hover:text-gray-400"
+            >
               <svg
                 strokeLinejoin="round"
                 strokeLinecap="round"
@@ -54,23 +63,27 @@ function HeroSection() {
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
-                className="w-8 h-8">
+                className="w-8 h-8"
+              >
                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 
-                    6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 
-                    0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                          6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 
+                          0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                 </path>
               </svg>
             </a>
-            <a href="assets/resume.pdf"
+            <a
+              href="assets/resume.pdf"
               download="Yazan_Abo_Ayash_Resume.pdf"
-              className="hover:text-gray-400 hover:scale-95 duration-300">
+              className="hover:text-gray-400 hover:scale-95 duration-300"
+            >
               <svg
                 className="w-8 h-8"
                 stroke="currentColor"
                 strokeWidth="1.5"
                 viewBox="0 0 24 24"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <path
                   d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
                   strokeLinejoin="round"
@@ -81,6 +94,7 @@ function HeroSection() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
