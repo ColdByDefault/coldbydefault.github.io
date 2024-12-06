@@ -7,7 +7,7 @@
     "intro_message_part1": "Hallo, ich lerne derzeit, ein Softwareentwickler zu werden, mit Fokus auf Python und maschinelles Lernen, und einer Leidenschaft für den Aufbau und die Erkundung neuer Technologien.",
     "intro_message_part2": "Diese Website ist mein erstes React-Projekt und zeigt meine Reise in die Frontend-Entwicklung.",
     "intro_message_part3": "Schauen Sie sich meine anderen Projekte und den Quellcode dieser Website auf meinem",
-    "intro_message_part4": "<a href='https://github.com/ColdByDefault/coldbydefault.github.io' target='_blank' rel='noopener noreferrer' class='text-main-Cyne'>GitHub</a>.",
+    "intro_message_part4": "<a href='https://github.com/ColdByDefault/coldbydefault.github.io' target='_blank' rel='noopener noreferrer' class='text-cyan-400'>GitHub</a>.",
     "my_journey": "Meine Reise in die Softwareentwicklung",
     "journey_description": "Entdecken Sie, wie ich meine akademische und berufliche Reise in die Softwareentwicklung begann. Vom Webdesign bis zu Python und React.",
     "active_learning": "Aktives Lernen auf",

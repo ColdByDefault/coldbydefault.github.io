@@ -5,6 +5,7 @@
 html {
     scroll-behavior: smooth;  
     background: #0B0C0D ;
+    @apply font-sans;
 }
 
 .test-colors{

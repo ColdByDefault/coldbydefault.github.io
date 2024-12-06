@@ -34,7 +34,7 @@ export default [
   {
     section: "websites",
     title: "Photographer Website",
-    imgUrl: "/assets/projects/photographer.png",
+    imgUrl: "/assets/projects/loonn.png",
     stack: ["React", "Vite", "Tailwind CSS"],
     liveLink: "https://www.coldbydefault.com/PhotographerStudio/",
     sourceLink: "https://github.com/ColdByDefault/PhotographerStudio",

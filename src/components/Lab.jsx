@@ -4,7 +4,7 @@ import MultiActionAreaCard from "./MultiActionAreaCard";
 function Lab() {
   return (
     <div className="grid grid-cols-1  
-    lg:grid-cols-2 gap-6 p-4 text-white">
+    lg:grid-cols-2 gap-6 p-4 text-cyan-400">
         {/* Projects Section */}
         <div className="bg-new-bg-second rounded-lg shadow-lg p-6 ">
           <h2 className="text-3xl font-bold text-center mb-6">Projects</h2>

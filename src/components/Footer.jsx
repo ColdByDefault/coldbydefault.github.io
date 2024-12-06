@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Footer({ setActiveSection }) {
   return (
     <footer className="bottom-0 bg-new-bg-second backdrop-blur-lg text-white py-4 text-center">
@@ -7,6 +8,9 @@ function Footer({ setActiveSection }) {
         <p className="text-sm text-center sm:text-left">
           Copyright © 2024{" "}
           <span className="font-bold text-main-Cyne">ColdByDefault</span>. All rights reserved.
+          <p>
+          <span className="text-orange-500">Another</span>Project&trade;
+        </p>
         </p>
         <button
           className="font-medium cursor-pointer text-gray-600 hover:text-gray-400 

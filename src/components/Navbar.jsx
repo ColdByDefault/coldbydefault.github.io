@@ -34,7 +34,7 @@ function Navbar({ setActiveSection }) {
               className="text-white hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700">
-              Cold<span className="text-main-Cyne">By</span>Default
+              Cold<span className="text-cyan-400">By</span>Default
             </div>
             <div className="sm:hidden">
               <button
@@ -88,7 +88,7 @@ function Navbar({ setActiveSection }) {
             <div className="flex flex-col items-center justify-center gap-8 
             sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
               <button
-                className="text-main-Cyne hover:text-zinc-200 backdrop-blur-lg 
+                className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                 onClick={() => handleNavigation("Home")}
@@ -99,14 +99,14 @@ function Navbar({ setActiveSection }) {
                 <span className="block sm:hidden">{t("home")}</span>
               </button>
               <button
-                className="text-main-Cyne hover:text-zinc-200 backdrop-blur-lg 
+                className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                 onClick={() => handleNavigation("Projects")}>
                 <span>{t("projects")}</span>
               </button>
               <button
-                className="text-main-Cyne hover:text-zinc-200 backdrop-blur-lg 
+                className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                 onClick={() => handleNavigation("Blog")}>
@@ -115,14 +115,14 @@ function Navbar({ setActiveSection }) {
               {/* Language Switch Buttons */}
               <div className="flex gap-4">
                 <button
-                    className="text-main-Cyne hover:text-zinc-200 backdrop-blur-lg 
+                    className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                     bg-new-bg-fourth rounded-md 
                     py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                     onClick={() => handleLanguageChange("en")}>
                     EN
                   </button>
                   <button
-                    className="text-main-Cyne hover:text-zinc-200 backdrop-blur-lg 
+                    className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                     bg-new-bg-fourth rounded-md 
                     py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                     onClick={() => handleLanguageChange("de")}>
