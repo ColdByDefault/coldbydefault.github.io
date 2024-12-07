@@ -6,8 +6,7 @@ function Footer({ setActiveSection }) {
     <footer className="bottom-0 bg-new-bg-second backdrop-blur-lg text-white py-4 text-center">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 px-4">
         <p className="text-sm text-center sm:text-left">
-          Copyright © 2024{" "}
-          <span className="font-bold text-main-Cyne">ColdByDefault</span>. All rights reserved.
+          Copyright © 2024{" "} ColdByDefault. All rights reserved.
           <p>
           <span className="text-orange-500">Another</span>Project&trade;
         </p>

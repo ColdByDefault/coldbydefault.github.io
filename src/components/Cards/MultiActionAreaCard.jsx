@@ -17,10 +17,9 @@ function MultiActionAreaCard({ section }) {
           {filteredItems.map((item, index) => (
             <Card key={index} sx={{ maxWidth: 255,
                 backgroundColor: "#0b0b0e",
-                border: "solid 1px white",
                 transition: "box-shadow 0.3s",
                 "&:hover": {
-                  boxShadow: "0 8px 20px #3c4245",
+                  boxShadow: "0 8px 20px #0a0a0a",
                 },}}>
               <CardActionArea component="a"
                 href={item.link}
@@ -46,35 +45,61 @@ function MultiActionAreaCard({ section }) {
                     variant="body2"
                     sx={{
                       color: "rgba(255, 255, 255, 0.8)",}}>
+                    {item.version}
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      color: "rgba(255, 255, 255, 0.8)",}}>
                     {item.stack.join(", ")}
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <div className="w-full flex justify-evenly">
+              <div className="w-full flex justify-evenly">
+                {item.liveLink ? (
                   <Button
                     size="small"
                     sx={{
-                      color: "#eaf6f6", 
+                      color: "#eaf6f6",
                       "&:hover": {
                         color: "#00bbf0",
-                      },}}
+                      },
+                    }}
                     href={item.liveLink}
                     target="_blank">
                     Visit
                   </Button>
-                  <Button
-                    size="small"
+                ) : (
+                  <Button size="small"
                     sx={{
-                      color: "#eaf6f6", 
+                      visibility: "hidden", // Keeps the space but hides the button
+                    }}>
+                    Visit
+                  </Button>
+                )}
+                {item.sourceLink ? (
+                  <Button size="small"
+                    sx={{
+                      color: "#eaf6f6",
                       "&:hover": {
                         color: "#00bbf0",
-                      },}}
+                      },
+                    }}
                     href={item.sourceLink}
                     target="_blank">
                     Source Code
                   </Button>
-                </div>
+                ) : (
+                  <Button
+                    size="small"
+                    sx={{
+                      visibility: "hidden", 
+                    }}>
+                    Source Code
+                  </Button>
+                )}
+              </div>
               </CardActions>
             </Card>
         ))}

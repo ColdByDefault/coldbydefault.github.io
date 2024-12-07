@@ -37,8 +37,7 @@ function Navbar({ setActiveSection }) {
               Cold<span className="text-cyan-400">By</span>Default
             </div>
             <div className="sm:hidden">
-              <button
-                type="button"
+              <button type="button"
                 onClick={handleMenuToggle}
                 className="relative size-7 flex justify-center items-center 
                 gap-x-2 rounded-lg text-light-Cyne focus:outline-none 
@@ -47,8 +46,7 @@ function Navbar({ setActiveSection }) {
                 aria-controls="navbar-menu"
                 aria-label="Toggle navigation">
                 {isMenuOpen ? (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                  <svg xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     fill="none"
@@ -60,8 +58,7 @@ function Navbar({ setActiveSection }) {
                     <path d="m6 6 12 12" />
                   </svg>
                 ) : (
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                  <svg xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
                     fill="none"
@@ -78,8 +75,7 @@ function Navbar({ setActiveSection }) {
               </button>
             </div>
           </div>
-          <div
-            id="navbar-menu"
+          <div id="navbar-menu"
             className={`${
               isMenuOpen
                 ? "absolute top-full left-0 w-full bg-new-bg-second/80 backdrop-blur-lg p-5 rounded-b-lg"
@@ -87,26 +83,22 @@ function Navbar({ setActiveSection }) {
             } sm:block transition-all duration-300 z-40`}>
             <div className="flex flex-col items-center justify-center gap-8 
             sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-              <button
-                className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
+              <button className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
-                onClick={() => handleNavigation("Home")}
-              >
+                onClick={() => handleNavigation("Home")}>
                 <div className="hidden sm:block">
                   <FontAwesomeIcon icon={faHouse} />
                 </div>
                 <span className="block sm:hidden">{t("home")}</span>
               </button>
-              <button
-                className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
+              <button className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                 onClick={() => handleNavigation("Projects")}>
                 <span>{t("projects")}</span>
               </button>
-              <button
-                className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
+              <button className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md 
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                 onClick={() => handleNavigation("Blog")}>
@@ -114,21 +106,27 @@ function Navbar({ setActiveSection }) {
               </button>
               {/* Language Switch Buttons */}
               <div className="flex gap-4">
-                <button
-                    className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
+                <button className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                     bg-new-bg-fourth rounded-md 
                     py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                     onClick={() => handleLanguageChange("en")}>
                     EN
                   </button>
-                  <button
-                    className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
+                  <button className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                     bg-new-bg-fourth rounded-md 
                     py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
                     onClick={() => handleLanguageChange("de")}>
                     DE
                   </button>
               </div>
+              <a className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
+                  bg-new-bg-fourth rounded-md cursor-pointer
+                  py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
+                  href="https://www.coldbydefault.com/beRichLibrary/"
+                  rel="noopener noreferrer"
+                  target="_blank">
+                Visit beRich
+              </a>
             </div>
           </div>
         </nav>

@@ -1,7 +1,7 @@
 .glitch-effect {
     position: relative;
     display: inline-block;
-    color: #9da7fc;
+    color: #707070;
 }
 
 .glitch-effect::before,
@@ -10,14 +10,14 @@
     position: absolute;
     left: 0;
     top: 0;
-    color: #c2c8cc; 
+    color: #333333; 
     background: black;
     clip: rect(0, 900px, 0, 0);
     animation: glitch 1s infinite linear alternate-reverse;
 }
   
 .glitch-effect::after {
-    color: #8e96c0;
+    color: #4d4e4e;
     animation-delay: 0.2s;
 }
 
