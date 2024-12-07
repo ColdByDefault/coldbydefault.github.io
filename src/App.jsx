@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import Lab from "./components/Lab";
-import Footer from "./components/Footer";
-import LoadingScreen from "./components/LoadingScreen";
-import Blogs from "./components/Blogs";
-import BlogPost from "./components/BlogPost";
+import Navbar from "./components/Main/Navbar";
+import Intro from "./components/Main/Intro";
+import Lab from "./components/Labs/Lab";
+import Footer from "./components/Main/Footer";
+import LoadingScreen from "./components/Main/LoadingScreen";
+import Blogs from "./components/Blogs/Blogs";
+import BlogPost from "./components/Blogs/BlogPost";
+import Impressum from  "./components/Main/Impressum";
 
 function App() {
   const [showContent, setShowContent] = useState(false);
@@ -47,6 +48,8 @@ function App() {
             setActiveSection={handleSectionChange}
           />
         );
+      case "Impressum": // Add this case
+        return <Impressum />;
       default:
         return <Intro />;
     }

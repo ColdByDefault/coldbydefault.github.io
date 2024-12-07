@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../styles/TimelineStyles.css";
+import "../../styles/TimelineStyles.css";
 import { useTranslation } from "react-i18next";
 
 function Timeline() {

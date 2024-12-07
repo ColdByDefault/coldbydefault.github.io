@@ -6,7 +6,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import CardActionArea from "@mui/material/CardActionArea";
 import CardActions from "@mui/material/CardActions";
-import labItems from "../data/labItems";
+import labItems from "../../data/labItems";
 
 function MultiActionAreaCard({ section }) {
   const filteredItems = labItems.filter((item) => item.section === section);

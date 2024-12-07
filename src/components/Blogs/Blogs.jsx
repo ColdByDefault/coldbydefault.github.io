@@ -1,5 +1,5 @@
 import React from "react";
-import blogs from "../data/blogs";
+import blogs from "../../data/blogs";
 
 function Blogs({ setActiveSection, setSelectedBlog }) {
   const handleReadMore = (blog) => {

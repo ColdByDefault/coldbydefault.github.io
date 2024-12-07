@@ -1,5 +1,5 @@
 import React from "react";
-import skillsList from "../data/skillsList";
+import skillsList from "../../data/skillsList";
 import { useTranslation } from "react-i18next";
 
 function Skills() {

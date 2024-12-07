@@ -1,10 +1,10 @@
 import React from "react";
-import Timeline from "./Timeline";
-import Skills from "./Skills";
-import Certifications from "./Certifications";
-import CallToAction from "./CallToAction";
-import WebsitesAndAcademies from "./WebsitesAndAcademies";
-import HeroSection from "./HeroSection";
+import Timeline from "../Landing/Timeline";
+import Skills from "../Landing/Skills";
+import Certifications from "../Landing/Certifications";
+import CallToAction from "../Cards/CallToAction";
+import WebsitesAndAcademies from "../Landing/WebsitesAndAcademies";
+import HeroSection from "../Landing/HeroSection";
 
 function Intro() {
   return (

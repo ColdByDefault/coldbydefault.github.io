@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../styles/glitchEffect.css";
+import "../../styles/glitchEffect.css";
 
 const chars = "-sd_sdf~`gdf!@#dfg$g%gh^&qwe*fdg()+sdf=[]{fg}|sad;:,.<>?";
 

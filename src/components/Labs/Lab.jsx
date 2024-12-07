@@ -1,5 +1,6 @@
 import React from "react";
-import MultiActionAreaCard from "./MultiActionAreaCard";
+import MultiActionAreaCard from "../Cards/MultiActionAreaCard";
+
 
 function Lab() {
   return (
