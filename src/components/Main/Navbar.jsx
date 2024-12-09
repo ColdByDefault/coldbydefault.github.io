@@ -25,7 +25,7 @@ function Navbar({ setActiveSection }) {
       <header
         className="relative flex flex-wrap 
         sm:justify-center sm:flex-nowrap 
-        w-full text-sm py-3 font-inter z-50">
+        w-full text-sm py-3 font-inter z-40">
         <nav className="w-full sm:max-w-[85%] px-4 sm:flex 
         sm:items-center sm:justify-evenly 
         bg-new-bg-second rounded-lg p-2 mx-auto relative">
