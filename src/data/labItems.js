@@ -32,8 +32,8 @@ export default [
     version: "V3.0.0",
     imgUrl: "/assets/projects/BeRich3.png",
     stack: ["React", "Vite", "Tailwind CSS"],
-    liveLink: "",
-    sourceLink: "",
+    liveLink: "https://www.coldbydefault.com/beRichLibrary/",
+    sourceLink: "https://github.com/ColdByDefault/beRichLibrary",
   },
   {
     section: "projects",
