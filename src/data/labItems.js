@@ -28,20 +28,11 @@ export default [
   },
   {
     section: "projects",
-    title: "BeRich",
-    version: "V3.0.0",
-    imgUrl: "/assets/projects/BeRich3.png",
-    stack: ["React", "Vite", "Tailwind CSS"],
-    liveLink: "",
-    sourceLink: "https://github.com/ColdByDefault/beRichLibrary",
-  },
-  {
-    section: "projects",
     title: "BeRich.Library",
     version: "V3.1.1",
     imgUrl: "/assets/projects/BeRich3.png",
     stack: ["NEXT.JS", "React", "Vercel"],
-    liveLink: "",
+    liveLink: "https://github.com/ColdByDefault/beRichLibrary_Fullstack",
     sourceLink: "https://github.com/ColdByDefault/beRichLibrary",
   },
   {
