@@ -10,7 +10,7 @@ export default [
   },
   {
     section: "projects",
-    title: "BeRich-tsheft Generator",
+    title: "BeRich-tsheft",
     version: "V1.0.0",
     imgUrl: "/assets/projects/BeRich1.png",
     stack: ["Python", "ctKinter"],
@@ -19,7 +19,7 @@ export default [
   },
   {
     section: "projects",
-    title: "BeRich-tsheft Generator",
+    title: "BeRich",
     version: "V2.0.0",
     imgUrl: "/assets/projects/BeRich2.png",
     stack: ["Python", "Flask", "Jinja2"],
@@ -28,11 +28,20 @@ export default [
   },
   {
     section: "projects",
-    title: "BeRich-tsheft Generator",
+    title: "BeRich",
     version: "V3.0.0",
     imgUrl: "/assets/projects/BeRich3.png",
     stack: ["React", "Vite", "Tailwind CSS"],
-    liveLink: "https://www.coldbydefault.com/beRichLibrary/",
+    liveLink: "",
+    sourceLink: "https://github.com/ColdByDefault/beRichLibrary",
+  },
+  {
+    section: "projects",
+    title: "BeRich.Library",
+    version: "V3.1.1",
+    imgUrl: "/assets/projects/BeRich3.png",
+    stack: ["NEXT.JS", "React", "Vercel"],
+    liveLink: "",
     sourceLink: "https://github.com/ColdByDefault/beRichLibrary",
   },
   {

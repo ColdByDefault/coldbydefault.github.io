@@ -122,7 +122,7 @@ function Navbar({ setActiveSection }) {
               <a className="text-cyan-400 hover:text-zinc-200 backdrop-blur-lg 
                   bg-new-bg-fourth rounded-md cursor-pointer
                   py-2 px-2 shadow hover:shadow-zinc-400 duration-700"
-                  href="https://www.coldbydefault.com/beRichLibrary/"
+                  href="https://berichlibrary.coldbydefault.com/"
                   rel="noopener noreferrer"
                   target="_blank">
                 Visit beRich
