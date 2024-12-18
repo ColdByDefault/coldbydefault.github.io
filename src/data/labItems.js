@@ -32,8 +32,8 @@ export default [
     version: "V3.1.1",
     imgUrl: "/assets/projects/BeRich3.png",
     stack: ["NEXT.JS", "React", "Vercel"],
-    liveLink: "https://github.com/ColdByDefault/beRichLibrary_Fullstack",
-    sourceLink: "https://github.com/ColdByDefault/beRichLibrary",
+    liveLink: "https://berichlibrary.coldbydefault.com/",
+    sourceLink: "https://github.com/ColdByDefault/beRichLibrary_Fullstack",
   },
   {
     section: "projects",
