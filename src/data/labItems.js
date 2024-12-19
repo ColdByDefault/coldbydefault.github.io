@@ -1,3 +1,7 @@
+// Data for the lab section
+// objects for Websites and Projects
+// src/Labs/Labs.jsx
+// src/Cards/MultiActionAreaCard.jsx
 export default [
   {
     section: "websites",

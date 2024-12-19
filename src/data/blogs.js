@@ -1,3 +1,5 @@
+// Data for blogs page
+// src/components/Blogs/BlogPost.jsx
 const blogs = [
   {
     id: 1,

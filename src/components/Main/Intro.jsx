@@ -1,3 +1,5 @@
+// Desc: Home page of the portfolio
+// Serve as the main page of the portfolio 
 import React from "react";
 import Timeline from "../Landing/Timeline";
 import Skills from "../Landing/Skills";

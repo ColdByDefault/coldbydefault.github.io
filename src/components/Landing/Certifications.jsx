@@ -1,3 +1,4 @@
+// desc: This file contains the Certifications component which is used to display the certifications.
 import React from "react";
 import certifications from "../../data/certifications";
 

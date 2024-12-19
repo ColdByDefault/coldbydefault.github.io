@@ -1,3 +1,5 @@
+// data for certifications
+// src/components/Landing/Certification.jsx
 const certifications = [
     {
         title: "PCEP Certified",

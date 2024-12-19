@@ -1,3 +1,5 @@
+// Code for the BlogPost component
+// This component will display the selected blog post
 import React from "react";
 
 function BlogPost({ selectedBlog, setActiveSection }) {

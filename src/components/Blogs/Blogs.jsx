@@ -1,3 +1,5 @@
+// Desc: Blogs component to display all the blogs
+
 import React from "react";
 import blogs from "../../data/blogs";
 

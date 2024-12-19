@@ -1,10 +1,11 @@
+// Desc: Timeline component for the landing page
 import React, { useEffect } from "react";
 import "../../styles/TimelineStyles.css";
 import { useTranslation } from "react-i18next";
 
 function Timeline() {
   const { t } = useTranslation();
-  const events = t("timeline.events", { returnObjects: true }); // Retrieve events array from JSON
+  const events = t("timeline.events", { returnObjects: true }); 
 
   useEffect(() => {
     const handleScroll = () => {

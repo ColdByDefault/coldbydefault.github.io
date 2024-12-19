@@ -1,3 +1,4 @@
+// Desc: Skills component for the landing page
 import React from "react";
 import skillsList from "../../data/skillsList";
 import { useTranslation } from "react-i18next";

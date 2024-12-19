@@ -1,3 +1,11 @@
+// Created At: 2024-11-18 00:04:00
+// ColdByDefault {AnotherProject} => www.coldbydefault.com
+// COPYRIGHT 2024 - ALL RIGHTS RESERVED 
+// All content included on this site, such as text, graphics, logos, icons, images, information, audio clips, digital downloads, 
+// data compilations, and software, is the property of ColdByDefault or its content suppliers and is protected by international copyright laws.
+// NoT allowed to copy any content from this site without proper authentication.
+// Code to render the main app component
+// This component is the root component of the app and contains the logic to render different sections of the app based on the active section
 import React, { useState } from "react";
 import Navbar from "./components/Main/Navbar";
 import Intro from "./components/Main/Intro";

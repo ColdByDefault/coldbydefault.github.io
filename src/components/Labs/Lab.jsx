@@ -1,3 +1,4 @@
+// Desc: This is the main component for the Lab page. It contains the Projects and Websites sections.
 import React from "react";
 import MultiActionAreaCard from "../Cards/MultiActionAreaCard";
 

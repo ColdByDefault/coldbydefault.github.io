@@ -1,3 +1,4 @@
+// Desc: This is the Hero Section of the Landing Page
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTree } from "@fortawesome/free-solid-svg-icons";

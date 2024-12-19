@@ -1,3 +1,4 @@
+// Desc: Websites and Academies section of the landing page
 import React from "react";
 import { useTranslation } from "react-i18next";
 

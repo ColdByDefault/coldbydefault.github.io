@@ -1,3 +1,5 @@
+// Desc: Navbar component for the website
+// Hambarger menu for mobile view
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";

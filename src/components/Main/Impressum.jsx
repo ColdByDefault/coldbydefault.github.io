@@ -1,3 +1,7 @@
+// Desc: This file contains the Impressum component.
+// Impressum is a legal requirement for websites in Germany. 
+// It is a page that contains information about the website owner, 
+// such as name, address, and contact information.
 import React from "react";
 
 function Impressum() {

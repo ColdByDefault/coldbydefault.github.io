@@ -1,3 +1,5 @@
+// Desc: Loading screen component
+// On refresh or when the page is loaded, the loading screen will be displayed for 2.2 seconds
 import React, { useEffect, useState } from "react";
 import "../../styles/glitchEffect.css";
 

@@ -1,3 +1,5 @@
+// Not in use, but keeping it for future reference
+// This component creates a gradient background that changes based on the mouse position
 import React, { useEffect } from "react";
 
 function GradientBackground() {

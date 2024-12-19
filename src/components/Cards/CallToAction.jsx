@@ -1,3 +1,5 @@
+// Desc: This is the CallToAction component that is used in the Home page to show the user a call to action to contact the developer.
+
 import React from "react";
 import { useTranslation } from "react-i18next";
 

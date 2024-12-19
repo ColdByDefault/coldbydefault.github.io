@@ -1,3 +1,8 @@
+// Desc: This component is used to display multiple cards with action areas.
+// It is used in the Labs section to display the projects.
+// MUI Card component is used to display the cards.
+// If labItem has no liveLink or sourceLink, the button is hidden, but the space is still reserved.
+
 import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -73,7 +78,7 @@ function MultiActionAreaCard({ section }) {
                 ) : (
                   <Button size="small"
                     sx={{
-                      visibility: "hidden", // Keeps the space but hides the button
+                      visibility: "hidden", 
                     }}>
                     Visit
                   </Button>
